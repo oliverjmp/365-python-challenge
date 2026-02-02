@@ -1,0 +1,44 @@
+=== INFORME DE ANÁLISIS UNIVERSAL — DÍA 09 ===
+
+Fecha: 02/02/2026 21:35:09
+Archivo analizado: c:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\09-ENERO\textos\entrada.txt
+Total de palabras: 1368
+Tipo de texto detectado: Religioso
+------------------------------------------------------------
+
+1) Palabras más frecuentes
+- dios: 44
+- tierra: 35
+- toda: 16
+- cielos: 15
+- fue: 15
+- día: 15
+- hombre: 13
+- dijo: 12
+- aguas: 11
+- todo: 11
+- jehová: 11
+- hizo: 10
+- según: 10
+- expansión: 9
+- bueno: 9
+
+2) Expresiones frecuentes (bigramas)
+- "la tierra": 33
+- "los cielos": 14
+- "y fue": 14
+- "de la": 14
+- "sobre la": 12
+- "el día": 12
+- "y la": 11
+- "las aguas": 11
+- "de los": 11
+- "tierra y": 11
+
+3) Análisis especializado según tipo de texto
+- Creación y origen del mundo
+- Relación entre Dios y la humanidad
+- Bendición y propósito
+
+4) Resumen ejecutivo adaptado
+El texto presenta una estructura simbólica y espiritual, con énfasis en temas de origen, propósito y relación entre lo divino y lo humano.
