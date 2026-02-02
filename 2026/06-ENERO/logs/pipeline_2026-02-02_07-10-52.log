@@ -1,0 +1,24 @@
+Día 03 — Limpieza de Datos: OK — 6.13s
+Salida:
+Cargando CSV desde el Día 02...
+Buscando CSV en: c:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\02-ENERO\precios_crypto.csv
+Exportando a Excel base...
+Aplicando formato profesional...
+
+Archivo 'informe_cripto.xlsx' generado y formateado correctamente.
+
+
+Día 04 — Dashboard Premium: OK — 1.44s
+Salida:
+Archivo generado: c:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\04-ENERO\informe_cripto.xlsx
+Día 4 PREMIUM EJECUTIVO completado.
+
+
+Día 05 — Exportación PDF: OK — 13.7s
+Salida:
+PDF generado correctamente en:
+c:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\05-ENERO\informe_cripto.pdf
+Día 5 PREMIUM EJECUTIVO completado.
+
+
+Pipeline completado correctamente en 21.26s.
