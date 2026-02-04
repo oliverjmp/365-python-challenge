@@ -136,7 +136,9 @@ Día	Carpeta	Descripción	Estado
 
 13 13-ENERO 🧪 Sistema de validación automática de datos (Data Quality Checks). ✔
 
-14	14-ENERO	En progreso	🔄
+14  14-ENERO  🗂️ Sistema de monitoreo de archivos (File Watcher) + alertas básicas. ✔
+
+15	15-ENERO	En progreso	🔄
 
 ⭐ Proyectos destacados
 🔹 Día 11 — Modelo de Análisis de Sentimientos
