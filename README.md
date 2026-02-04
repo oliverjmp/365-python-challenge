@@ -17,10 +17,11 @@ Ingeniería de software
 Buenas prácticas
 
 🏷️ Badges del proyecto
-https://img.shields.io/badge/Status-En%20progreso-blue
-https://img.shields.io/badge/Python-3.10+-yellow
-https://img.shields.io/badge/Commits-Diarios-success
-https://img.shields.io/badge/365%20Days-Challenge-orange
+![Status](https://img.shields.io/badge/Status-En%20progreso-blue)
+![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
+![Commits](https://img.shields.io/badge/Commits-Diarios-success)
+![Challenge](https://img.shields.io/badge/365%20Days-Challenge-orange)
+
 
 📊 Progreso del reto
 12 / 365 días completados
