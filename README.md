@@ -17,10 +17,11 @@ Ingeniería de software
 Buenas prácticas
 
 🏷️ Badges del proyecto
-https://img.shields.io/badge/Status-En%20progreso-blue
-https://img.shields.io/badge/Python-3.10%2B-yellow
-https://img.shields.io/badge/Commits-Diarios-success
-https://img.shields.io/badge/365%20Days-Challenge-orange
+![Status](https://img.shields.io/badge/Status-En%20progreso-blue)
+![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
+![Commits](https://img.shields.io/badge/Commits-Diarios-success)
+![Challenge](https://img.shields.io/badge/365%20Days-Challenge-orange)
+
 
 📊 Progreso del reto
 12 / 365 días completados
@@ -99,18 +100,18 @@ Día 12 → 12-ENERO
 
 📅 Tabla de días completados
 Día	Carpeta	Descripción	Estado
-1	01-ENERO (github.com in Bing)	🌦️ ETL de clima usando API pública.	✔
-2	02-ENERO (github.com in Bing)	🕷️ Scraper avanzado con rotación de User Agents + CSV.	✔
-3	03-ENERO (github.com in Bing)	📊 Automatización de Excel con formato profesional.	✔
-4	04-ENERO (github.com in Bing)	📈 Generación automática de gráficos en Excel.	✔
-5	05-ENERO (github.com in Bing)	📄 Exportación automática del informe a PDF.	✔
-6	06-ENERO (github.com in Bing)	🔗 Pipeline maestro de automatización completa.	✔
-7	07-ENERO (github.com in Bing)	📧 Envío automático del informe por email.	✔
-8	08-ENERO (github.com in Bing)	🛎️ Sistema de notificaciones + logging avanzado.	✔
-9	09-ENERO (github.com in Bing)	🚨 Sistema de alertas y validaciones.	✔
-10	10-ENERO (github.com in Bing)	💬 Análisis avanzado de textos con Streamlit.	✔
-11	11-ENERO (github.com in Bing)	🤖 Modelo de análisis de sentimientos.	✔
-12	12-ENERO (github.com in Bing)	🧹 Pipeline de preprocesamiento NLP.	✔
+1	01-ENERO  🌦️ ETL de clima usando API pública.	✔
+2	02-ENERO  🕷️ Scraper avanzado con rotación de User Agents + CSV.	✔
+3	03-ENERO  📊 Automatización de Excel con formato profesional.	✔
+4	04-ENERO 	📈 Generación automática de gráficos en Excel.	✔
+5	05-ENERO 	📄 Exportación automática del informe a PDF.	✔
+6	06-ENERO 	🔗 Pipeline maestro de automatización completa.	✔
+7	07-ENERO 	📧 Envío automático del informe por email.	✔
+8	08-ENERO 	🛎️ Sistema de notificaciones + logging avanzado.	✔
+9	09-ENERO 	🚨 Sistema de alertas y validaciones.	✔
+10	10-ENERO 	💬 Análisis avanzado de textos con Streamlit.	✔
+11	11-ENERO 	🤖 Modelo de análisis de sentimientos.	✔
+12	12-ENERO 	🧹 Pipeline de preprocesamiento NLP.	✔
 13	13-ENERO	En progreso	🔄
 14	14-ENERO	En progreso	🔄
 ⭐ Proyectos destacados
