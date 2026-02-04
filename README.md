@@ -17,18 +17,17 @@ Ingeniería de software
 Buenas prácticas
 
 🏷️ Badges del proyecto
-https://img.shields.io/badge/Status-En%20progreso-blue
-https://img.shields.io/badge/Python-3.10+-yellow
-https://img.shields.io/badge/Commits-Diarios-success
-https://img.shields.io/badge/365%20Days-Challenge-orange
+![Status](https://img.shields.io/badge/Status-En%20progreso-blue)
+![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
+![Commits](https://img.shields.io/badge/Commits-Diarios-success)
+![Challenge](https://img.shields.io/badge/365%20Days-Challenge-orange)
+
 
 📊 Progreso del reto
 12 / 365 días completados
 
 Código
 ███████░░░░░░░░░░░░░░░░░
-(Cada bloque █ representa ~3% del reto.)
-
 📑 Índice
 Descripción general
 
@@ -48,6 +47,8 @@ Roadmap del reto
 
 Sobre mí
 
+Contacto
+
 🧠 Descripción general
 Este repositorio documenta mi progreso diario aprendiendo, practicando y aplicando Python en proyectos reales.
 Cada día tiene su propia carpeta con:
@@ -63,13 +64,21 @@ Resultados o capturas si aplica
 📂 Estructura del proyecto
 Código
 365-python-challenge/
-│── README.md   ← Este archivo (README general)
+
+│── README.md
+
 │── 2026/
+
 │     ├── 01-ENERO/
+
 │     ├── 02-ENERO/
+
 │     ├── ...
+
 │     ├── 11-ENERO/
+
 │     ├── 12-ENERO/
+
 │     └── ...
 🗂️ Índice mensual
 ENERO 2026
@@ -97,31 +106,38 @@ Día 11 → 11-ENERO
 
 Día 12 → 12-ENERO
 
-(Cuando avances a febrero, te genero el índice automáticamente.)
-
-📅 Tabla de días completados (con emojis + enlaces reales)
-IMPORTANTE:  
-Ya están listos los enlaces reales a tu GitHub.
-Solo asegúrate de que tu repo se llame:
-365-python-challenge  
-Si usas otro nombre, me lo dices y lo ajusto en segundos.
+📅 Tabla de días completados
 
 Día	Carpeta	Descripción	Estado
-1	01-ENERO (github.com in Bing)	🌦️ ETL de clima usando API pública. Extracción, transformación y carga de datos meteorológicos.	✔
-2	02-ENERO (github.com in Bing)	🕷️ Scraper avanzado con rotación de User Agents y exportación automática a CSV.	✔
-3	03-ENERO (github.com in Bing)	📊 Automatización de Excel: generación de archivo con formato profesional a partir de un CSV.	✔
-4	04-ENERO (github.com in Bing)	📈 Generación automática de gráficos en Excel usando Python.	✔
-5	05-ENERO (github.com in Bing)	📄 Exportación automática del informe a PDF con formato corporativo.	✔
-6	06-ENERO (github.com in Bing)	🔗 Pipeline maestro: ejecución completa y secuencial de todos los módulos anteriores.	✔
-7	07-ENERO (github.com in Bing)	📧 Envío automático del informe por email (Outlook/Gmail API).	✔
-8	08-ENERO (github.com in Bing)	🛎️ Sistema de notificaciones y registro ejecutivo (logging avanzado con niveles y handlers).	✔
-9	09-ENERO (github.com in Bing)	🚨 Sistema de alertas y validaciones automáticas dentro del pipeline.	✔
-10	10-ENERO (github.com in Bing)	💬 Análisis avanzado de textos con Streamlit (interfaz interactiva).	✔
-11	11-ENERO (github.com in Bing)	🤖 Modelo de análisis de sentimientos entrenado con dataset ampliado (400+ frases).	✔
-12	12-ENERO (github.com in Bing)	🧹 Pipeline de preprocesamiento NLP: detección de idioma + normalización avanzada.	✔
+
+1 01-ENERO  🌦️ ETL de clima usando API pública.	✔
+
+2	02-ENERO  🕷️ Scraper avanzado con rotación de User Agents + CSV.	✔
+
+3	03-ENERO  📊 Automatización de Excel con formato profesional.	✔
+
+4	04-ENERO 	📈 Generación automática de gráficos en Excel.	✔
+
+5	05-ENERO 	📄 Exportación automática del informe a PDF.	✔
+
+6	06-ENERO 	🔗 Pipeline maestro de automatización completa.	✔
+
+7	07-ENERO 	📧 Envío automático del informe por email.	✔
+
+8	08-ENERO 	🛎️ Sistema de notificaciones + logging avanzado.	✔
+
+9	09-ENERO 	🚨 Sistema de alertas y validaciones.	✔
+
+10	10-ENERO 	💬 Análisis avanzado de textos con Streamlit.	✔
+
+11	11-ENERO 	🤖 Modelo de análisis de sentimientos.	✔
+
+12	12-ENERO 	🧹 Pipeline de preprocesamiento NLP.	✔
+
 13	13-ENERO	En progreso	🔄
+
 14	14-ENERO	En progreso	🔄
-…	…	…	🔄 Hasta completar los 365
+
 ⭐ Proyectos destacados
 🔹 Día 11 — Modelo de Análisis de Sentimientos
 Dataset ampliado (400+ frases)
@@ -226,4 +242,5 @@ reforzar mi marca personal como profesional de datos
 
 📬 Contacto
 GitHub: https://github.com/oliverjmp
+
 LinkedIn: https://www.linkedin.com/in/oliverj-moralesp
