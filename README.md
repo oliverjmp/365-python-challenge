@@ -134,7 +134,7 @@ Día	Carpeta	Descripción	Estado
 
 12	12-ENERO 	🧹 Pipeline de preprocesamiento NLP.	✔
 
-13	13-ENERO	En progreso	🔄
+13 13-ENERO 🧪 Sistema de validación automática de datos (Data Quality Checks). ✔
 
 14	14-ENERO	En progreso	🔄
 
