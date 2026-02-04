@@ -36,19 +36,27 @@ API pública de Open‑Meteo
 📦 Estructura del proyecto
 Código
 dia_01_ETL_Clima_API/
+
 │── main.py
+
 │── README.md
+
 └── recursos/
+
 ▶️ Cómo ejecutar
+
 1. Instala dependencias:
 Código
 pip install requests
+
 2. Ejecuta el script:
 Código
 python main.py
+
 3. Se generará automáticamente la base de datos:
 Código
 clima.db
+
 📊 Resultado
 El pipeline crea la tabla:
 
