@@ -1,137 +1,228 @@
-🐍 365 Python Challenge — Un proyecto de un año completo
-Por Oliver Javier Morales Pérez
-🚀 Descripción general
-365 Python Challenge es un proyecto anual donde desarrollo un programa avanzado en Python cada día del año.
-No son ejercicios básicos: son micro‑proyectos profesionales, modernos y orientados a demostrar dominio real de Python en áreas como:
-
-Data Engineering
-
-Business Intelligence
+🐍 365 Python Challenge — Proyecto Completo
+Bienvenido a mi 365 Python Challenge, un proyecto donde desarrollo un ejercicio, módulo o mini‑proyecto de Python cada día durante un año completo.
+El objetivo es construir un portafolio sólido, progresivo y profesional que combine:
 
 Automatización
 
-APIs y Web Scraping
+Análisis de datos
 
 Machine Learning
 
-Algoritmos avanzados
+NLP
 
-Estructuras de datos
+Visualización
 
-Dashboards y visualización
+Ingeniería de software
 
-Arquitectura de software
+Buenas prácticas
 
-Aplicaciones completas
+🏷️ Badges del proyecto
+https://img.shields.io/badge/Status-En%20progreso-blue
+https://img.shields.io/badge/Python-3.10+-yellow
+https://img.shields.io/badge/Commits-Diarios-success
+https://img.shields.io/badge/365%20Days-Challenge-orange
 
-El objetivo es construir un portafolio sólido, variado y atractivo para reclutadores y empresas tecnológicas.
+📊 Progreso del reto
+12 / 365 días completados
 
-🗂️ Estructura del repositorio
+Código
+███████░░░░░░░░░░░░░░░░░
+(Cada bloque █ representa ~3% del reto.)
+
+📑 Índice
+Descripción general
+
+Estructura del proyecto
+
+Índice mensual
+
+Tabla de días completados
+
+Proyectos destacados
+
+Tecnologías utilizadas
+
+Cómo navegar el repositorio
+
+Roadmap del reto
+
+Sobre mí
+
+🧠 Descripción general
+Este repositorio documenta mi progreso diario aprendiendo, practicando y aplicando Python en proyectos reales.
+Cada día tiene su propia carpeta con:
+
+Código
+
+Recursos
+
+Un README explicando el objetivo del día
+
+Resultados o capturas si aplica
+
+📂 Estructura del proyecto
 Código
 365-python-challenge/
-│
-├── README.md                # Este archivo
-│
-├── 2026/
-│   ├── 01-Enero/
-│   │   ├── dia_01_NombreDelProyecto/
-│   │   │   ├── main.py
-│   │   │   ├── README.md
-│   │   │   └── recursos/
-│   │   ├── dia_02_NombreDelProyecto/
-│   │   └── ...
-│   │
-│   ├── 02-Febrero/
-│   ├── 03-Marzo/
-│   ├── ...
-│   └── 12-Diciembre/
-│
-└── recursos_globales/
-Cada día es un mini‑proyecto independiente, con su propio README, código limpio y documentación profesional.
+│── README.md   ← Este archivo (README general)
+│── 2026/
+│     ├── 01-ENERO/
+│     ├── 02-ENERO/
+│     ├── ...
+│     ├── 11-ENERO/
+│     ├── 12-ENERO/
+│     └── ...
+🗂️ Índice mensual
+ENERO 2026
+Día 1 → 01-ENERO
 
-🎯 Objetivos del proyecto
-Demostrar dominio avanzado de Python
+Día 2 → 02-ENERO
 
-Construir un portafolio técnico de alto nivel
+Día 3 → 03-ENERO
 
-Practicar buenas prácticas de ingeniería
+Día 4 → 04-ENERO
 
-Crear soluciones reales, útiles y aplicables
+Día 5 → 05-ENERO
 
-Mantener disciplina y constancia durante 365 días
+Día 6 → 06-ENERO
 
-Mostrar crecimiento continuo como desarrollador
+Día 7 → 07-ENERO
 
-🧠 Tecnologías y áreas cubiertas
-🔹 Data Engineering
-ETL pipelines
+Día 8 → 08-ENERO
 
-APIs reales
+Día 9 → 09-ENERO
 
-SQLite / PostgreSQL
+Día 10 → 10-ENERO
 
-Limpieza y validación de datos
+Día 11 → 11-ENERO
 
-Automatización de reportes
+Día 12 → 12-ENERO
 
-🔹 Business Intelligence
+(Cuando avances a febrero, te genero el índice automáticamente.)
+
+📅 Tabla de días completados (con emojis + enlaces reales)
+IMPORTANTE:  
+Ya están listos los enlaces reales a tu GitHub.
+Solo asegúrate de que tu repo se llame:
+365-python-challenge  
+Si usas otro nombre, me lo dices y lo ajusto en segundos.
+
+Día	Carpeta	Descripción	Estado
+1	01-ENERO (github.com in Bing)	🌦️ ETL de clima usando API pública. Extracción, transformación y carga de datos meteorológicos.	✔
+2	02-ENERO (github.com in Bing)	🕷️ Scraper avanzado con rotación de User Agents y exportación automática a CSV.	✔
+3	03-ENERO (github.com in Bing)	📊 Automatización de Excel: generación de archivo con formato profesional a partir de un CSV.	✔
+4	04-ENERO (github.com in Bing)	📈 Generación automática de gráficos en Excel usando Python.	✔
+5	05-ENERO (github.com in Bing)	📄 Exportación automática del informe a PDF con formato corporativo.	✔
+6	06-ENERO (github.com in Bing)	🔗 Pipeline maestro: ejecución completa y secuencial de todos los módulos anteriores.	✔
+7	07-ENERO (github.com in Bing)	📧 Envío automático del informe por email (Outlook/Gmail API).	✔
+8	08-ENERO (github.com in Bing)	🛎️ Sistema de notificaciones y registro ejecutivo (logging avanzado con niveles y handlers).	✔
+9	09-ENERO (github.com in Bing)	🚨 Sistema de alertas y validaciones automáticas dentro del pipeline.	✔
+10	10-ENERO (github.com in Bing)	💬 Análisis avanzado de textos con Streamlit (interfaz interactiva).	✔
+11	11-ENERO (github.com in Bing)	🤖 Modelo de análisis de sentimientos entrenado con dataset ampliado (400+ frases).	✔
+12	12-ENERO (github.com in Bing)	🧹 Pipeline de preprocesamiento NLP: detección de idioma + normalización avanzada.	✔
+13	13-ENERO	En progreso	🔄
+14	14-ENERO	En progreso	🔄
+…	…	…	🔄 Hasta completar los 365
+⭐ Proyectos destacados
+🔹 Día 11 — Modelo de Análisis de Sentimientos
+Dataset ampliado (400+ frases)
+
+Clasificación multiclase
+
+Streamlit UI
+
+Métricas y matriz de confusión
+
+🔹 Día 12 — Pipeline de Preprocesamiento NLP
+Detección de idioma
+
+Normalización avanzada
+
+Integración con el modelo del Día 11
+
+🛠 Tecnologías utilizadas
+Python 3.x
+
+Pandas
+
+Scikit-learn
+
+Streamlit
+
+Matplotlib / Seaborn
+
+NLP (TF‑IDF, normalización, detección de idioma)
+
+Automatización y scripts
+
+🧭 Cómo navegar el repositorio
+Entra en la carpeta del año (por ejemplo, 2026/).
+
+Selecciona el día que quieras revisar.
+
+Abre el README de ese día para entender el objetivo.
+
+Ejecuta el código siguiendo las instrucciones del README local.
+
+🗺️ Roadmap del reto
+Fase 1 — Enero
+Fundamentos de automatización
+
+ETL
+
+Excel avanzado
+
+PDF
+
+Pipelines
+
+Email
+
+Logging
+
+NLP básico
+
+Fase 2 — Febrero
+NLP avanzado
+
+Lematización
+
+Stopwords inteligentes
+
+Modelos ML más robustos
+
 Dashboards interactivos
 
-Visualización avanzada
+Fase 3 — Marzo–Junio
+APIs avanzadas
 
-Generación automática de informes
+Web automation
 
-🔹 Machine Learning
-Modelos clásicos
+SQL + Python
 
-Clasificación, regresión, clustering
+Visualización profesional
 
-Preprocesamiento y feature engineering
+Microservicios simples
 
-🔹 Automatización
-Bots
+Fase 4 — Julio–Diciembre
+Proyectos grandes
 
-Scraping profesional
+Integraciones reales
 
-Manipulación de Excel
+Modelos ML completos
 
-Scripts de productividad
+Portfolio final
 
-🔹 Software Engineering
-Estructuras de datos
+👤 Sobre mí
+Soy Oliver Javier Morales Pérez, consultor senior de datos y especialista en Business Intelligence.
+Este reto forma parte de mi proceso continuo de:
 
-Algoritmos
+mejorar mis habilidades técnicas
 
-Arquitectura modular
+construir un portafolio sólido
 
-Patrones de diseño
+explorar nuevas áreas de Python
 
-📅 Plan del año
-Cada mes tiene un enfoque:
-
-Mes	Tema principal
-Enero	Fundamentos avanzados + ETL
-Febrero	Algoritmos y estructuras
-Marzo	Archivos, texto y automatización
-Abril	APIs, scraping y web
-Mayo	Machine Learning
-Junio	Dashboards y visualización
-Julio	POO y arquitectura
-Agosto	Automatización empresarial
-Septiembre	Bases de datos
-Octubre	Proyectos completos
-Noviembre	Ciencia de datos
-Diciembre	Proyectos finales
-🏆 Meta final
-Al terminar el año, este repositorio será:
-
-Un portafolio profesional de referencia
-
-Una prueba sólida de disciplina, constancia y capacidad técnica
-
-Una colección de 365 proyectos avanzados
-
-Un recurso que cualquier reclutador puede revisar para ver tu nivel real
+reforzar mi marca personal como profesional de datos
 
 📬 Contacto
 GitHub: https://github.com/oliverjmp
