@@ -64,13 +64,21 @@ Resultados o capturas si aplica
 📂 Estructura del proyecto
 Código
 365-python-challenge/
+
 │── README.md
+
 │── 2026/
+
 │     ├── 01-ENERO/
+
 │     ├── 02-ENERO/
+
 │     ├── ...
+
 │     ├── 11-ENERO/
+
 │     ├── 12-ENERO/
+
 │     └── ...
 🗂️ Índice mensual
 ENERO 2026
@@ -99,21 +107,37 @@ Día 11 → 11-ENERO
 Día 12 → 12-ENERO
 
 📅 Tabla de días completados
+
 Día	Carpeta	Descripción	Estado
-1	01-ENERO  🌦️ ETL de clima usando API pública.	✔
+
+1 01-ENERO  🌦️ ETL de clima usando API pública.	✔
+
 2	02-ENERO  🕷️ Scraper avanzado con rotación de User Agents + CSV.	✔
+
 3	03-ENERO  📊 Automatización de Excel con formato profesional.	✔
+
 4	04-ENERO 	📈 Generación automática de gráficos en Excel.	✔
+
 5	05-ENERO 	📄 Exportación automática del informe a PDF.	✔
+
 6	06-ENERO 	🔗 Pipeline maestro de automatización completa.	✔
+
 7	07-ENERO 	📧 Envío automático del informe por email.	✔
+
 8	08-ENERO 	🛎️ Sistema de notificaciones + logging avanzado.	✔
+
 9	09-ENERO 	🚨 Sistema de alertas y validaciones.	✔
+
 10	10-ENERO 	💬 Análisis avanzado de textos con Streamlit.	✔
+
 11	11-ENERO 	🤖 Modelo de análisis de sentimientos.	✔
+
 12	12-ENERO 	🧹 Pipeline de preprocesamiento NLP.	✔
+
 13	13-ENERO	En progreso	🔄
+
 14	14-ENERO	En progreso	🔄
+
 ⭐ Proyectos destacados
 🔹 Día 11 — Modelo de Análisis de Sentimientos
 Dataset ampliado (400+ frases)
