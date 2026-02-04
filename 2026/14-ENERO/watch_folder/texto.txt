@@ -1,0 +1,4 @@
+Este es un archivo de prueba para el sistema de monitoreo del Día 14.
+Si este archivo aparece, modifica o se elimina, el watcher debe detectarlo.
+
+Es lo mejor del mundo

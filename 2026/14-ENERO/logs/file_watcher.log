@@ -1,0 +1,6 @@
+2026-02-04 23:33:55,477 - INFO - Iniciando monitoreo en: watch_folder
+2026-02-04 23:36:48,991 - INFO - Iniciando monitoreo en: watch_folder
+2026-02-04 23:39:19,132 - INFO - \U0001f7e2 Nuevo archivo detectado: test.txt
+2026-02-04 23:40:07,185 - INFO - \U0001f7e1 Archivo modificado: test.txt
+2026-02-04 23:40:25,195 - WARNING - \U0001f534 Archivo eliminado: test.txt
+2026-02-04 23:40:58,212 - INFO - \U0001f7e2 Nuevo archivo detectado: texto.txt
