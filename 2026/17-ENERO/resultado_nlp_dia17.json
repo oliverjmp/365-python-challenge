@@ -1,0 +1,46 @@
+{
+    "entidades": [
+        {
+            "texto": "Oliver Morales Pérez",
+            "tipo": "PER"
+        },
+        {
+            "texto": "Python Challenge",
+            "tipo": "MISC"
+        },
+        {
+            "texto": "Microsoft",
+            "tipo": "ORG"
+        },
+        {
+            "texto": "Amazon",
+            "tipo": "MISC"
+        },
+        {
+            "texto": "Madrid",
+            "tipo": "LOC"
+        },
+        {
+            "texto": "Business Intelligence",
+            "tipo": "MISC"
+        }
+    ],
+    "lemas_clave": [
+        "Oliver",
+        "Morales",
+        "Pérez",
+        "liderar",
+        "365",
+        "Python",
+        "Challenge",
+        "analizar",
+        "dato",
+        "Microsoft",
+        "Amazon",
+        "Madrid",
+        "optimizar",
+        "estrategia",
+        "Business",
+        "Intelligence"
+    ]
+}
