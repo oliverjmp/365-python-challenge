@@ -24,7 +24,7 @@ Buenas prácticas
 
 
 📊 Progreso del reto
-12 / 365 días completados
+15 / 365 días completados
 
 Código
 ███████░░░░░░░░░░░░░░░░░
@@ -91,20 +91,11 @@ Día 3 → 03-ENERO
 Día 4 → 04-ENERO
 
 Día 5 → 05-ENERO
+.
 
-Día 6 → 06-ENERO
+.
 
-Día 7 → 07-ENERO
-
-Día 8 → 08-ENERO
-
-Día 9 → 09-ENERO
-
-Día 10 → 10-ENERO
-
-Día 11 → 11-ENERO
-
-Día 12 → 12-ENERO
+.
 
 📅 Tabla de días completados
 
@@ -138,7 +129,9 @@ Día	Carpeta	Descripción	Estado
 
 14  14-ENERO  🗂️ Sistema de monitoreo de archivos (File Watcher) + alertas básicas. ✔
 
-15	15-ENERO	En progreso	🔄
+15	15-ENERO	💾 Sistema de Backup Automático + Alertas Básicas. ✔
+
+16	16-ENERO	En progreso	🔄
 
 ⭐ Proyectos destacados
 🔹 Día 11 — Modelo de Análisis de Sentimientos
