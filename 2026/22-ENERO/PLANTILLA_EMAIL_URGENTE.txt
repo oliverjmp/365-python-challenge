@@ -1,0 +1,18 @@
+ASUNTO: 🚨 ALERTA CRÍTICA: INSATISFACCIÓN DE CLIENTE DETECTADA (07/02/2026 00:51)
+
+Estimado Equipo de Operaciones,
+
+Se ha detectado una anomalía en el sentimiento de los clientes procesados el día de hoy. 
+A continuación, se detallan los casos que requieren atención inmediata para evitar pérdida de clientes (Churn):
+
+📍 CLIENTE: Cliente_B
+💬 COMENTARIO: "La aplicacion se cierra sola y es muy lenta."
+📊 SCORE: -0.8
+----------------------------------------
+📍 CLIENTE: Cliente_D
+💬 COMENTARIO: "No me gusta nada el nuevo diseño de la web."
+📊 SCORE: -0.8
+----------------------------------------
+
+Este es un mensaje generado automáticamente por el sistema de BI de Oliver.
+Por favor, no responder a este correo.
