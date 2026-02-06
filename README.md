@@ -24,7 +24,7 @@ Buenas prácticas
 
 
 📊 Progreso del reto
-15 / 365 días completados
+19 / 365 días completados
 
 Código
 ███████░░░░░░░░░░░░░░░░░
@@ -136,6 +136,18 @@ Día	Carpeta	Descripción	Estado
 17	17-ENERO	🤖 Extracción de Entidades con NLP (NER) ✔
 
 18	18-ENERO	📊 Análisis de Sentimiento (Versión Segura y Visual) ✔
+
+19	19-ENERO  🚀 Pipeline de BI - Procesamiento Batch (Masivo) ✔
+
+20	20-ENERO  
+
+21	21-ENERO  
+
+22	22-ENERO  
+
+23	23-ENERO  
+
+24	24-ENERO  
 
 ⭐ Proyectos destacados
 🔹 Día 11 — Modelo de Análisis de Sentimientos
