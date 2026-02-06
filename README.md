@@ -131,7 +131,11 @@ Día	Carpeta	Descripción	Estado
 
 15	15-ENERO	💾 Sistema de Backup Automático + Alertas Básicas. ✔
 
-16	16-ENERO	En progreso	🔄
+16	16-ENERO	🩺 Monitor de Integridad y Salud de Pipelines ✔
+
+17	17-ENERO	En progreso	🔄
+
+17	17-ENERO	En progreso	🔄
 
 ⭐ Proyectos destacados
 🔹 Día 11 — Modelo de Análisis de Sentimientos
