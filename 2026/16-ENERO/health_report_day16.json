@@ -1,0 +1,80 @@
+{
+    "fecha": "2026-02-06T23:17:50.868323",
+    "checks": [
+        {
+            "dia": 1,
+            "folder": "01-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 2,
+            "folder": "02-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 3,
+            "folder": "03-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 4,
+            "folder": "04-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 5,
+            "folder": "05-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 6,
+            "folder": "06-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 7,
+            "folder": "07-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 8,
+            "folder": "08-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 9,
+            "folder": "09-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 10,
+            "folder": "10-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 11,
+            "folder": "11-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 12,
+            "folder": "12-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 13,
+            "folder": "13-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 14,
+            "folder": "14-ENERO",
+            "exists": true
+        },
+        {
+            "dia": 15,
+            "folder": "15-ENERO",
+            "exists": true
+        }
+    ]
+}

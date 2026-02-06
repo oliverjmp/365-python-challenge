@@ -1,0 +1,68 @@
+2026-02-06 23:08:25,789 - INFO - [HealthMonitor] - Iniciando escaneo de integridad para 15 días...
+2026-02-06 23:08:25,792 - WARNING - [HealthMonitor] - Falta la carpeta: 01-ENERO
+2026-02-06 23:08:25,794 - WARNING - [HealthMonitor] - Falta la carpeta: 02-ENERO
+2026-02-06 23:08:25,795 - WARNING - [HealthMonitor] - Falta la carpeta: 03-ENERO
+2026-02-06 23:08:25,795 - WARNING - [HealthMonitor] - Falta la carpeta: 04-ENERO
+2026-02-06 23:08:25,795 - WARNING - [HealthMonitor] - Falta la carpeta: 05-ENERO
+2026-02-06 23:08:25,795 - WARNING - [HealthMonitor] - Falta la carpeta: 06-ENERO
+2026-02-06 23:08:25,795 - WARNING - [HealthMonitor] - Falta la carpeta: 07-ENERO
+2026-02-06 23:08:25,795 - WARNING - [HealthMonitor] - Falta la carpeta: 08-ENERO
+2026-02-06 23:08:25,795 - WARNING - [HealthMonitor] - Falta la carpeta: 09-ENERO
+2026-02-06 23:08:25,795 - WARNING - [HealthMonitor] - Falta la carpeta: 10-ENERO
+2026-02-06 23:08:25,795 - WARNING - [HealthMonitor] - Falta la carpeta: 11-ENERO
+2026-02-06 23:08:25,800 - WARNING - [HealthMonitor] - Falta la carpeta: 12-ENERO
+2026-02-06 23:08:25,800 - WARNING - [HealthMonitor] - Falta la carpeta: 13-ENERO
+2026-02-06 23:08:25,800 - WARNING - [HealthMonitor] - Falta la carpeta: 14-ENERO
+2026-02-06 23:08:25,801 - WARNING - [HealthMonitor] - Falta la carpeta: 15-ENERO
+2026-02-06 23:08:25,802 - INFO - [HealthMonitor] - Reporte de salud generado exitosamente: health_report_day16.json
+2026-02-06 23:10:18,809 - INFO - [HealthMonitor] - Iniciando escaneo de integridad para 15 días...
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 01-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 02-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 03-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 04-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 05-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 06-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 07-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 08-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 09-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 10-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 11-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 12-ENERO
+2026-02-06 23:10:18,809 - WARNING - [HealthMonitor] - Falta la carpeta: 13-ENERO
+2026-02-06 23:10:18,817 - WARNING - [HealthMonitor] - Falta la carpeta: 14-ENERO
+2026-02-06 23:10:18,817 - WARNING - [HealthMonitor] - Falta la carpeta: 15-ENERO
+2026-02-06 23:10:18,818 - INFO - [HealthMonitor] - Reporte de salud generado exitosamente: health_report_day16.json
+2026-02-06 23:13:23,820 - INFO - [HealthMonitor] - Iniciando escaneo de integridad para 15 días...
+2026-02-06 23:13:23,820 - WARNING - [HealthMonitor] - Falta la carpeta: 01-ENERO
+2026-02-06 23:13:23,820 - WARNING - [HealthMonitor] - Falta la carpeta: 02-ENERO
+2026-02-06 23:13:23,822 - WARNING - [HealthMonitor] - Falta la carpeta: 03-ENERO
+2026-02-06 23:13:23,822 - WARNING - [HealthMonitor] - Falta la carpeta: 04-ENERO
+2026-02-06 23:13:23,822 - WARNING - [HealthMonitor] - Falta la carpeta: 05-ENERO
+2026-02-06 23:13:23,822 - WARNING - [HealthMonitor] - Falta la carpeta: 06-ENERO
+2026-02-06 23:13:23,822 - WARNING - [HealthMonitor] - Falta la carpeta: 07-ENERO
+2026-02-06 23:13:23,822 - WARNING - [HealthMonitor] - Falta la carpeta: 08-ENERO
+2026-02-06 23:13:23,824 - WARNING - [HealthMonitor] - Falta la carpeta: 09-ENERO
+2026-02-06 23:13:23,824 - WARNING - [HealthMonitor] - Falta la carpeta: 10-ENERO
+2026-02-06 23:13:23,824 - WARNING - [HealthMonitor] - Falta la carpeta: 11-ENERO
+2026-02-06 23:13:23,824 - WARNING - [HealthMonitor] - Falta la carpeta: 12-ENERO
+2026-02-06 23:13:23,825 - WARNING - [HealthMonitor] - Falta la carpeta: 13-ENERO
+2026-02-06 23:13:23,825 - WARNING - [HealthMonitor] - Falta la carpeta: 14-ENERO
+2026-02-06 23:13:23,825 - WARNING - [HealthMonitor] - Falta la carpeta: 15-ENERO
+2026-02-06 23:13:23,827 - INFO - [HealthMonitor] - Reporte de salud generado exitosamente: health_report_day16.json
+2026-02-06 23:15:57,812 - INFO - [HealthMonitor] - Iniciando escaneo de integridad para 15 días...
+2026-02-06 23:15:57,822 - WARNING - [HealthMonitor] - Falta la carpeta: 01-ENERO
+2026-02-06 23:15:57,822 - WARNING - [HealthMonitor] - Falta la carpeta: 02-ENERO
+2026-02-06 23:15:57,822 - WARNING - [HealthMonitor] - Falta la carpeta: 03-ENERO
+2026-02-06 23:15:57,822 - WARNING - [HealthMonitor] - Falta la carpeta: 04-ENERO
+2026-02-06 23:15:57,822 - WARNING - [HealthMonitor] - Falta la carpeta: 05-ENERO
+2026-02-06 23:15:57,822 - WARNING - [HealthMonitor] - Falta la carpeta: 06-ENERO
+2026-02-06 23:15:57,822 - WARNING - [HealthMonitor] - Falta la carpeta: 07-ENERO
+2026-02-06 23:15:57,822 - WARNING - [HealthMonitor] - Falta la carpeta: 08-ENERO
+2026-02-06 23:15:57,827 - WARNING - [HealthMonitor] - Falta la carpeta: 09-ENERO
+2026-02-06 23:15:57,827 - WARNING - [HealthMonitor] - Falta la carpeta: 10-ENERO
+2026-02-06 23:15:57,828 - WARNING - [HealthMonitor] - Falta la carpeta: 11-ENERO
+2026-02-06 23:15:57,829 - WARNING - [HealthMonitor] - Falta la carpeta: 12-ENERO
+2026-02-06 23:15:57,830 - WARNING - [HealthMonitor] - Falta la carpeta: 13-ENERO
+2026-02-06 23:15:57,830 - WARNING - [HealthMonitor] - Falta la carpeta: 14-ENERO
+2026-02-06 23:15:57,831 - WARNING - [HealthMonitor] - Falta la carpeta: 15-ENERO
+2026-02-06 23:15:57,832 - INFO - [HealthMonitor] - Reporte de salud generado exitosamente: health_report_day16.json
