@@ -1,0 +1,6 @@
+id,usuario,comentario,score,sentimiento
+1,Cliente_A,El servicio de Oliver es excelente y muy rapido.,0.8,POSITIVO
+2,Cliente_B,La aplicacion se cierra sola y es muy lenta.,-0.8,NEGATIVO
+3,Cliente_C,Mañana recibire mi pedido en Madrid.,0.0,NEUTRO
+4,Cliente_D,No me gusta nada el nuevo diseño de la web.,-0.8,NEGATIVO
+5,Cliente_E,Increible atencion al cliente el dia de hoy.    ,0.8,POSITIVO
