@@ -24,7 +24,7 @@ Buenas prácticas
 
 
 📊 Progreso del reto
-19 / 365 días completados
+20 / 365 días completados
 
 Código
 ███████░░░░░░░░░░░░░░░░░
@@ -139,7 +139,7 @@ Día	Carpeta	Descripción	Estado
 
 19	19-ENERO  🚀 Pipeline de BI - Procesamiento Batch (Masivo) ✔
 
-20	20-ENERO  
+20	20-ENERO  📊 Visualización de Datos para BI ✔
 
 21	21-ENERO  
 
