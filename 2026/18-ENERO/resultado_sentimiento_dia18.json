@@ -1,0 +1,17 @@
+[
+    {
+        "texto": "Oliver está haciendo un trabajo increíble con Python.",
+        "sentimiento": "POSITIVO",
+        "score": 0.8
+    },
+    {
+        "texto": "El sistema es muy lento y el servicio es pésimo.",
+        "sentimiento": "NEGATIVO",
+        "score": -0.8
+    },
+    {
+        "texto": "Mañana tenemos una reunión técnica en la oficina.",
+        "sentimiento": "NEUTRO",
+        "score": 0.0
+    }
+]
