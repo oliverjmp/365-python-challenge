@@ -133,9 +133,9 @@ Día	Carpeta	Descripción	Estado
 
 16	16-ENERO	🩺 Monitor de Integridad y Salud de Pipelines ✔
 
-17	17-ENERO	En progreso	🔄
+17	17-ENERO	🤖 Extracción de Entidades con NLP (NER) ✔
 
-17	17-ENERO	En progreso	🔄
+18	18-ENERO	📊 Análisis de Sentimiento (Versión Segura y Visual) ✔
 
 ⭐ Proyectos destacados
 🔹 Día 11 — Modelo de Análisis de Sentimientos
