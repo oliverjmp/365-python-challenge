@@ -145,7 +145,10 @@ Día 5 → 05-ENERO
 
 | Día | Fecha | Proyecto / Hito | Estado |
 | :---: | :--- | :--- | :---: |
-| 32 | 01-FEB | 🌐 Peticiones HTTP Avanzadas y JSON Handling | ⚡ |
+| 32 | 01-FEB | 🌐 **Consumo de APIs y JSON:** Primeras peticiones exitosas a CoinGecko. | ✅ |
+| 33 | 02-FEB | 📈 **Monitor de Volatilidad:** Lógica de comparación de precios y cálculo de variaciones. | ✅ |
+| 34 | 03-FEB | 🤖 **Telegram Resilient Bot:** Alertas push y blindaje contra errores (Rate Limit/404). | ✅ |
+| 35 | 04-FEB | 🚀 **Interacción Bidireccional:** Comandos de respuesta bajo demanda. | ⏳ |
 
 ---
 
