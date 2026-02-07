@@ -145,9 +145,21 @@ Día	Carpeta	Descripción	Estado
 
 22	22-ENERO  📧 Generador de Notificaciones de Negocio ✔
 
-23	23-ENERO  
+23	23-ENERO  🗄️ Persistencia de Datos con SQLite ✔
 
-24	24-ENERO  
+24	24-ENERO  📈 Dashboard Conectado a Base de Datos (SQL) ✔
+
+25	25-ENERO  🛠️ Gestión de Ciclo de Vida de Datos (CRUD Update) ✔
+
+26	26-ENERO  📊 Analítica Gerencial y KPIs ✔
+
+27	27-ENERO 
+
+28	28-ENERO 
+
+29	29-ENERO 
+
+30	30-ENERO 
 
 ⭐ Proyectos destacados
 🔹 Día 11 — Modelo de Análisis de Sentimientos
