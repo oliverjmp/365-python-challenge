@@ -141,27 +141,30 @@ Día 5 → 05-ENERO
 ---
 
 ## 📅 MES 2: Conectividad y Escalabilidad (En Progreso ⏳)
-> **Enfoque:** APIs Avanzadas, Web Scraping Dinámico e Interfaces Gráficas.
+> **Enfoque:** Automatización, Extracción de Datos y Análisis con Pandas.
 
-### 📊 Tabla de Progreso - Reto 365 Python (Fase 3 & Fase 4)
+### 📊 Tabla de Progreso - Reto 365 Python (Fase 3, 4 & 5)
 
 | Día | Fecha  | Proyecto / Hito | Funcionalidad Clave | Estado |
 | :---: | :--- | :--- | :--- | :---: |
-| 41 | 10-FEB | 📂 **Smart File Organizer** | Clasificación de archivos por extensión con `shutil`. | ✅ |
-| 42 | 11-FEB | 🏷️ **Bulk Timestamp Renamer** | Control de versiones dinámico mediante fechas ISO. | ✅ |
-| 43 | 12-FEB | 🔍 **File Integrity Filter** | Segregación de archivos vacíos (0 KB). | ✅ |
-| 44 | 13-FEB | 📜 **Transaction Logging** | Auditoría forense de movimientos en archivos `.log`. | ✅ |
-| 45 | 14-FEB | 🛡️ **Snapshot Backup** | Compresión preventiva en ZIP con `zipfile`. | ✅ |
+| 41 | 10-FEB | 📂 **Smart File Organizer** | Clasificación por extensión con `shutil`. | ✅ |
+| 42 | 11-FEB | 🏷️ **Bulk Timestamp Renamer** | Versionado dinámico con fechas ISO. | ✅ |
+| 43 | 12-FEB | 🔍 **File Integrity Filter** | Segregación de basura (archivos 0 KB). | ✅ |
+| 44 | 13-FEB | 📜 **Transaction Logging** | Auditoría forense y trazabilidad en `.log`. | ✅ |
+| 45 | 14-FEB | 🛡️ **Snapshot Backup** | Compresión preventiva en ZIP (`zipfile`). | ✅ |
 | 46 | 15-FEB | 🌪️ **Ultimate Orchestrator** | Integración total del pipeline S.A.F.E. | ✅ |
-| 47 | 16-FEB | 🌐 **Web Scraping Foundations** | Peticiones HTTP, User-Agents y BeautifulSoup. | ✅ |
-| 48 | 17-FEB | 📊 **Table Scraper to CSV** | Extracción de tablas HTML y persistencia en dataset. | ✅ |
-| 49 | 18-FEB | 🕷️ **Recursive Web Crawler** | Navegación multinivel y throttling de cortesía. | ✅ |
+| 47 | 16-FEB | 🌐 **Web Scraping Foundations** | Peticiones HTTP y parsing con BeautifulSoup. | ✅ |
+| 48 | 17-FEB | 📊 **Table Scraper to CSV** | Extracción de `<table>` y persistencia en dataset. | ✅ |
+| 49 | 18-FEB | 🕷️ **Recursive Web Crawler** | Navegación multinivel y Throttling de cortesía. | ✅ |
 | 50 | 19-FEB | 🖼️ **Image Batch Downloader** | Descarga de flujos binarios (Byte Streaming). | ✅ |
-| 51 | 20-FEB | 🔍 **Search Form Automation** | Inyección de parámetros dinámicos en buscadores. | 🚧 |
+| 51 | 20-FEB | 🔍 **Search Form Automation** | Inyección de parámetros dinámicos (GET/Query). | ✅ |
+| 52 | 21-FEB | 🔐 **Session & Persistence** | Gestión de estados con `requests.Session` y POST. | ✅ |
+| 53 | 22-FEB | 🐼 **Pandas DataFrames Basics** | Análisis estadístico y operaciones vectorizadas. | ✅ |
+| 54 | 23-FEB | 🧹 **Data Cleaning Mastery** | Limpieza de nulos y normalización de tipos. | 🚧 |
 
 ---
-**Fase actual:** 🌐 Fase 4 - Web Scraping & Data Extraction
-**Próximo Hito:** Interacción con formularios y sesiones de login (D52).
+**Fase actual:** 📊 Fase 5 - Data Visualization & Analytics
+**Próximo Hito:** Limpieza forense de datasets reales (D54).
 ---
 
 ### 🛠️ Tecnologías Core (Mes 1)
