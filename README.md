@@ -143,12 +143,15 @@ Día 5 → 05-ENERO
 ## 📅 MES 2: Conectividad y Escalabilidad (En Progreso ⏳)
 > **Enfoque:** APIs Avanzadas, Web Scraping Dinámico e Interfaces Gráficas.
 
-| Día | Fecha | Proyecto / Hito | Estado |
+| Día | Fecha  | Proyecto / Hito | Estado |
 | :---: | :--- | :--- | :---: |
 | 32 | 01-FEB | 🌐 **Consumo de APIs y JSON:** Primeras peticiones exitosas a CoinGecko. | ✅ |
 | 33 | 02-FEB | 📈 **Monitor de Volatilidad:** Lógica de comparación de precios y cálculo de variaciones. | ✅ |
 | 34 | 03-FEB | 🤖 **Telegram Resilient Bot:** Alertas push y blindaje contra errores (Rate Limit/404). | ✅ |
-| 35 | 04-FEB | 🚀 **Interacción Bidireccional:** Comandos de respuesta bajo demanda. | ⏳ |
+| 35 | 04-FEB | 🚀 **Smart Orchestrator:** Despacho dinámico de comandos y gestión de rutas con `pathlib`. | ✅ |
+| 36 | 05-FEB | 🎭 **Sentiment Gatekeeper:** Middleware de seguridad emocional y normalización Unicode. | ✅ |
+| 37 | 06-FEB | 🛡️ **Stateful Shield:** Gestión de estados (warnings) y bloqueo temporal (`time.sleep`). | ✅ |
+| 38 | 07-FEB | 🗄️ **Persistent Database:** Memoria a largo plazo con sincronización de conducta en JSON. | ✅ |
 
 ---
 
