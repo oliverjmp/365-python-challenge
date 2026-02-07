@@ -24,7 +24,7 @@ Buenas prácticas
 
 
 📊 Progreso del reto
-20 / 365 días completados
+26 / 365 días completados
 
 Código
 ███████░░░░░░░░░░░░░░░░░
