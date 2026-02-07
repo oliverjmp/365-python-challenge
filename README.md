@@ -141,9 +141,9 @@ Día	Carpeta	Descripción	Estado
 
 20	20-ENERO  📊 Visualización de Datos para BI ✔
 
-21	21-ENERO  
+21	21-ENERO  ⚠️ Sistema de Alertas de Sentimiento Crítico ✔
 
-22	22-ENERO  
+22	22-ENERO  📧 Generador de Notificaciones de Negocio ✔
 
 23	23-ENERO  
 
