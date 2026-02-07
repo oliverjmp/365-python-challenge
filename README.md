@@ -24,11 +24,13 @@ Buenas prácticas
 
 
 📊 Progreso del reto
-26 / 365 días completados
+31 / 365 días completados
 
 Código
 ███████░░░░░░░░░░░░░░░░░
+
 📑 Índice
+
 Descripción general
 
 Estructura del proyecto
