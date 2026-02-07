@@ -99,74 +99,62 @@ Día 5 → 05-ENERO
 
 📅 Tabla de días completados
 
-Día	Carpeta	Descripción	Estado
+# 🚀 365 Python Challenge - Oliver 2026
 
-01-ENERO 2026
+## 📅 MES 1: Cimentación y Business Intelligence (Completado 🏆)
+> **Enfoque:** Automatización, Análisis de Datos, SQL y Procesamiento de Lenguaje Natural (NLP).
 
-1 01-ENERO  🌦️ ETL de clima usando API pública.	✔
+| Día | Fecha | Proyecto / Hito | Estado |
+| :---: | :--- | :--- | :---: |
+| 01 | 01-ENE | 🌦️ ETL de clima usando API pública | ✅ |
+| 02 | 02-ENE | 🕷️ Scraper avanzado con rotación de User Agents | ✅ |
+| 03 | 03-ENE | 📊 Automatización de Excel con formato profesional | ✅ |
+| 04 | 04-ENE | 📈 Generación automática de gráficos en Excel | ✅ |
+| 05 | 05-ENE | 📄 Exportación automática del informe a PDF | ✅ |
+| 06 | 06-ENE | 🔗 Pipeline maestro de automatización completa | ✅ |
+| 07 | 07-ENE | 📧 Envío automático del informe por correo | ✅ |
+| 08 | 08-ENE | 🛎️ Sistema de notificaciones + registro avanzado | ✅ |
+| 09 | 09-ENE | 🚨 Sistema de alertas y validaciones | ✅ |
+| 10 | 10-ENE | 💬 Análisis avanzado de textos con Streamlit | ✅ |
+| 11 | 11-ENE | 🤖 Modelo de análisis de sentimientos | ✅ |
+| 12 | 12-ENE | 🧹 Pipeline de preprocesamiento PNL | ✅ |
+| 13 | 13-ENE | 🧪 Validación automática (Data Quality Checks) | ✅ |
+| 14 | 14-ENE | 🗂️ Monitor de archivos (File Watcher) | ✅ |
+| 15 | 15-ENE | 💾 Sistema de Backup Automático | ✅ |
+| 16 | 16-ENE | 🩺 Monitor de Integridad y Salud de Ductos | ✅ |
+| 17 | 17-ENE | 🤖 Extracción de Entidades con PNL (NER) | ✅ |
+| 18 | 18-ENE | 📊 Análisis de Sentimiento (Versión Visual) | ✅ |
+| 19 | 19-ENE | 🚀 Pipeline de BI - Procesamiento Batch | ✅ |
+| 20 | 20-ENE | 📊 Visualización de Datos para BI | ✅ |
+| 21 | 21-ENE | ⚠️ Sistema de Alertas de Sentimiento Crítico | ✅ |
+| 22 | 22-ENE | 📧 Generador de Notificaciones de Negocio | ✅ |
+| 23 | 23-ENE | 🗄️ Persistencia de Datos con SQLite | ✅ |
+| 24 | 24-ENE | 📈 Dashboard Conectado a Base de Datos (SQL) | ✅ |
+| 25 | 25-ENE | 🛠️ Ciclo de Vida de Datos (CRUD Update) | ✅ |
+| 26 | 26-ENE | 📊 Analítica Gerencial y KPIs | ✅ |
+| 27 | 27-ENE | 📥 Ingesta de Datos Incremental | ✅ |
+| 28 | 28-ENE | 🔍 Minería de Texto y Búsqueda SQL | ✅ |
+| 29 | 29-ENE | 🧹 Mantenimiento y Depuración (CRUD Delete) | ✅ |
+| 30 | 30-ENE | 📊 Exportación y Reportabilidad (SQL a Excel) | ✅ |
+| 31 | 31-ENE | 🎊 Cierre del Bloque de Inteligencia de Negocio | ✅ |
 
-2	02-ENERO  🕷️ Scraper avanzado con rotación de User Agents + CSV.	✔
+---
 
-3	03-ENERO  📊 Automatización de Excel con formato profesional.	✔
+## 📅 MES 2: Conectividad y Escalabilidad (En Progreso ⏳)
+> **Enfoque:** APIs Avanzadas, Web Scraping Dinámico e Interfaces Gráficas.
 
-4	04-ENERO 	📈 Generación automática de gráficos en Excel.	✔
+| Día | Fecha | Proyecto / Hito | Estado |
+| :---: | :--- | :--- | :---: |
+| 32 | 01-FEB | 🌐 Peticiones HTTP Avanzadas y JSON Handling | ⚡ |
 
-5	05-ENERO 	📄 Exportación automática del informe a PDF.	✔
+---
 
-6	06-ENERO 	🔗 Pipeline maestro de automatización completa.	✔
-
-7	07-ENERO 	📧 Envío automático del informe por email.	✔
-
-8	08-ENERO 	🛎️ Sistema de notificaciones + logging avanzado.	✔
-
-9	09-ENERO 	🚨 Sistema de alertas y validaciones.	✔
-
-10	10-ENERO 	💬 Análisis avanzado de textos con Streamlit.	✔
-
-11	11-ENERO 	🤖 Modelo de análisis de sentimientos.	✔
-
-12	12-ENERO 	🧹 Pipeline de preprocesamiento NLP.	✔
-
-13 13-ENERO 🧪 Sistema de validación automática de datos (Data Quality Checks). ✔
-
-14  14-ENERO  🗂️ Sistema de monitoreo de archivos (File Watcher) + alertas básicas. ✔
-
-15	15-ENERO	💾 Sistema de Backup Automático + Alertas Básicas. ✔
-
-16	16-ENERO	🩺 Monitor de Integridad y Salud de Pipelines ✔
-
-17	17-ENERO	🤖 Extracción de Entidades con NLP (NER) ✔
-
-18	18-ENERO	📊 Análisis de Sentimiento (Versión Segura y Visual) ✔
-
-19	19-ENERO  🚀 Pipeline de BI - Procesamiento Batch (Masivo) ✔
-
-20	20-ENERO  📊 Visualización de Datos para BI ✔
-
-21	21-ENERO  ⚠️ Sistema de Alertas de Sentimiento Crítico ✔
-
-22	22-ENERO  📧 Generador de Notificaciones de Negocio ✔
-
-23	23-ENERO  🗄️ Persistencia de Datos con SQLite ✔
-
-24	24-ENERO  📈 Dashboard Conectado a Base de Datos (SQL) ✔
-
-25	25-ENERO  🛠️ Gestión de Ciclo de Vida de Datos (CRUD Update) ✔
-
-26	26-ENERO  📊 Analítica Gerencial y KPIs ✔
-
-27	27-ENERO  📥 DíaIngesta de Datos Incremental ✔
-
-28	28-ENERO  🔍 Minería de Texto y Búsqueda SQL ✔
-
-29	29-ENERO  🧹 Mantenimiento y Depuración de Datos (CRUD Delete) ✔
-
-30	30-ENERO  📊 Exportación y Reportabilidad (SQL a Excel) ✔
-
-31	31-ENERO  🎊 Cierre del Bloque de Inteligencia de Negocio ✔
-
-02-FEBRERO 2026
-
+### 🛠️ Tecnologías Core (Mes 1)
+* **Lenguaje:** Python 3.13
+* **Análisis:** `pandas`, `matplotlib`, `NLP`
+* **Base de Datos:** `sqlite3`
+* **Automatización:** `pathlib`, `openpyxl`, `os`
+  
 ⭐ Proyectos destacados
 
 🔹 Día 31 — Sistema de BI & Gestión de Alertas (Fin de Mes 1)
