@@ -72,6 +72,8 @@ Código
 
 │── 2026/
 
+│── 2026/01-ENERO
+
 │     ├── 01-ENERO/
 
 │     ├── 02-ENERO/
@@ -98,6 +100,8 @@ Día 5 → 05-ENERO
 📅 Tabla de días completados
 
 Día	Carpeta	Descripción	Estado
+
+01-ENERO 2026
 
 1 01-ENERO  🌦️ ETL de clima usando API pública.	✔
 
@@ -160,6 +164,8 @@ Día	Carpeta	Descripción	Estado
 30	30-ENERO  📊 Exportación y Reportabilidad (SQL a Excel) ✔
 
 31	31-ENERO  🎊 Cierre del Bloque de Inteligencia de Negocio ✔
+
+02-FEBRERO 2026
 
 ⭐ Proyectos destacados
 
