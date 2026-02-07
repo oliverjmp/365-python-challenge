@@ -94,11 +94,6 @@ Día 3 → 03-ENERO
 Día 4 → 04-ENERO
 
 Día 5 → 05-ENERO
-.
-
-.
-
-.
 
 📅 Tabla de días completados
 
@@ -167,108 +162,90 @@ Día	Carpeta	Descripción	Estado
 31	31-ENERO  🎊 Cierre del Bloque de Inteligencia de Negocio ✔
 
 ⭐ Proyectos destacados
+
+🔹 Día 31 — Sistema de BI & Gestión de Alertas (Fin de Mes 1)
+
+Pipeline Completo: Flujo integral desde la ingesta de datos crudos hasta la toma de decisiones.
+
+Motor SQL: Implementación de base de datos relacional (SQLite) para persistencia de datos.
+
+Análisis NLP: Clasificación automática de sentimientos para detección de crisis de clientes.
+
+Gestión Operativa (CRUD): Sistema de tickets interactivo para resolver incidencias en tiempo real.
+
+Dashboard Ejecutivo: Visualización dinámica de KPIs de resolución y gravedad directamente desde SQL.
+
+Reportabilidad: Exportación automática a Excel profesional y generador de plantillas de email de urgencia.
+
 🔹 Día 11 — Modelo de Análisis de Sentimientos
-Dataset ampliado (400+ frases)
 
-Clasificación multiclase
-
-Streamlit UI
-
-Métricas y matriz de confusión
-
-🔹 Día 12 — Pipeline de Preprocesamiento NLP
-Detección de idioma
-
-Normalización avanzada
-
-Integración con el modelo del Día 11
+Dataset ampliado (400+ frases), Clasificación multiclase y Streamlit UI.
 
 🛠 Tecnologías utilizadas
-Python 3.x
+Lenguaje: Python 3.x
 
-Pandas
+Análisis de Datos: Pandas, NumPy
 
-Scikit-learn
+Bases de Datos: SQL (SQLite3)
 
-Streamlit
+Visualización: Matplotlib, Seaborn, Streamlit
 
-Matplotlib / Seaborn
+NLP: TextBlob, Scikit-learn (TF-IDF, Normalización)
 
-NLP (TF‑IDF, normalización, detección de idioma)
-
-Automatización y scripts
+Automatización: Pathlib, Datetime, Openpyxl (Excel), Logging
 
 🧭 Cómo navegar el repositorio
-Entra en la carpeta del año (por ejemplo, 2026/).
 
-Selecciona el día que quieras revisar.
+Entra en la carpeta del año (ej. 2026/).
 
-Abre el README de ese día para entender el objetivo.
+Selecciona el día que quieras revisar (ej. 31-ENERO).
+
+Abre el README de ese día para entender el objetivo técnico y de negocio.
 
 Ejecuta el código siguiendo las instrucciones del README local.
 
-🗺️ Roadmap del reto
-Fase 1 — Enero
-Fundamentos de automatización
+🗺️ Roadmap del reto (Actualizado)
 
-ETL
+✅ Fase 1 — Enero: Fundamentos y Business Intelligence
 
-Excel avanzado
+Completado: Automatización ETL, procesamiento de archivos (CSV/Excel/PDF), Logging profesional, Pipeline de NLP y SQL Relacional.
 
-PDF
+🚀 Fase 2 — Febrero: Automatización Avanzada y Conectividad
 
-Pipelines
+Consumo de APIs (REST).
 
-Email
+Web Scraping (Selenium/BeautifulSoup).
 
-Logging
+Interfaces Gráficas de Usuario (GUI).
 
-NLP básico
+Automatización de tareas del Sistema Operativo.
 
-Fase 2 — Febrero
-NLP avanzado
+📈 Fase 3 — Marzo–Junio: Escalabilidad y Visualización Pro
 
-Lematización
+Dashboards interactivos complejos.
 
-Stopwords inteligentes
+Microservicios y despliegue simple.
 
-Modelos ML más robustos
+Optimización de procesos SQL.
 
-Dashboards interactivos
+🤖 Fase 4 — Julio–Diciembre: Proyectos Enterprise & ML
 
-Fase 3 — Marzo–Junio
-APIs avanzadas
+Modelos de Machine Learning completos.
 
-Web automation
+Integraciones reales de software.
 
-SQL + Python
-
-Visualización profesional
-
-Microservicios simples
-
-Fase 4 — Julio–Diciembre
-Proyectos grandes
-
-Integraciones reales
-
-Modelos ML completos
-
-Portfolio final
+Portfolio final de consultoría técnica.
 
 👤 Sobre mí
-Soy Oliver Javier Morales Pérez, consultor senior de datos y especialista en Business Intelligence.
-Este reto forma parte de mi proceso continuo de:
+Soy Oliver Javier Morales Pérez, consultor senior de datos y especialista en Business Intelligence. Este reto es el testimonio de mi capacidad para:
 
-mejorar mis habilidades técnicas
+Diseñar arquitecturas de datos desde cero.
 
-construir un portafolio sólido
+Unir el mundo técnico con las necesidades estratégicas de negocio.
 
-explorar nuevas áreas de Python
-
-reforzar mi marca personal como profesional de datos
+Mantener una disciplina de aprendizaje continuo y entrega de valor diaria.
 
 📬 Contacto
-GitHub: https://github.com/oliverjmp
+GitHub: github.com/oliverjmp
 
-LinkedIn: https://www.linkedin.com/in/oliverj-moralesp
+LinkedIn: linkedin.com/in/oliverj-moralesp
