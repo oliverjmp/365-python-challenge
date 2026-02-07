@@ -1,0 +1,10 @@
+Este es un archivo de prueba para el sistema de backup automático del Día 15.
+
+El objetivo de este archivo es:
+- Probar la creación de copias con timestamp.
+- Verificar que el sistema mantiene un número máximo de versiones.
+- Confirmar que los backups antiguos se eliminan correctamente.
+- Validar que el log registra cada operación.
+
+Si ves este archivo dentro de la carpeta /backups en diferente versiones,
+significa que el sistema está funcionando correctamente.

@@ -1,0 +1,5 @@
+--- REPORTE DE INCIDENCIAS CRÍTICAS DÍA 21 ---
+Generado el: 2026-02-07 15:08:33.246820
+
+🔴 URGENTE: 'La aplicacion se cierra sola y es muy lenta.' (Score: -0.8)
+🔴 URGENTE: 'No me gusta nada el nuevo diseño de la web.' (Score: -0.8)

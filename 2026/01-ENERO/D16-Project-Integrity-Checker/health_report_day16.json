@@ -1,79 +1,79 @@
 {
-    "fecha": "2026-02-07T00:09:19.407636",
-    "checks": [
+    "fecha": "2026-02-07T14:58:34.013218",
+    "proyectos_detectados": [
         {
             "dia": 1,
-            "folder": "01-ENERO",
+            "folder": "D01-ETL-Clima",
             "exists": true
         },
         {
             "dia": 2,
-            "folder": "02-ENERO",
+            "folder": "D02-Scraper-Avanzado",
             "exists": true
         },
         {
             "dia": 3,
-            "folder": "03-ENERO",
+            "folder": "D03-Excel-Profesional",
             "exists": true
         },
         {
             "dia": 4,
-            "folder": "04-ENERO",
+            "folder": "D04-Graficos-Excel",
             "exists": true
         },
         {
             "dia": 5,
-            "folder": "05-ENERO",
+            "folder": "D05-Reporte-PDF",
             "exists": true
         },
         {
             "dia": 6,
-            "folder": "06-ENERO",
+            "folder": "D06-Pipeline-Maestro",
             "exists": true
         },
         {
             "dia": 7,
-            "folder": "07-ENERO",
+            "folder": "D07-Envio-Email",
             "exists": true
         },
         {
             "dia": 8,
-            "folder": "08-ENERO",
+            "folder": "D08-Reporte-Ejecutivo",
             "exists": true
         },
         {
             "dia": 9,
-            "folder": "09-ENERO",
+            "folder": "D09-Analisis-Tendencias",
             "exists": true
         },
         {
             "dia": 10,
-            "folder": "10-ENERO",
+            "folder": "D10-Analizador-Ultra",
             "exists": true
         },
         {
             "dia": 11,
-            "folder": "11-ENERO",
+            "folder": "D11-Analizador-Master",
             "exists": true
         },
         {
             "dia": 12,
-            "folder": "12-ENERO",
+            "folder": "D12-NLP-Pipeline-Inteligente",
             "exists": true
         },
         {
             "dia": 13,
-            "folder": "13-ENERO",
+            "folder": "D13-Data-Quality-Validator",
             "exists": true
         },
         {
             "dia": 14,
-            "folder": "14-ENERO",
+            "folder": "D14-File-System-Watcher",
             "exists": true
         },
         {
             "dia": 15,
-            "folder": "15-ENERO",
+            "folder": "D15-Backup-Manager",
             "exists": true
         }
     ]

@@ -1,3 +1,4 @@
 2026-02-06 21:38:33,245 - ERROR - Error creando backup: [WinError 3] El sistema no puede encontrar la ruta especificada: 'C:\\Users\\olive\\OneDrive\\Escritorio\\Oliver Preparacion Profesional\\365-python-challenge\\2026\\15-ENERO\\data'
 2026-02-06 21:39:16,699 - INFO - Backup creado: backup_20260206_213916
 2026-02-06 21:41:29,812 - INFO - Backup creado: backup_20260206_214129
+2026-02-07 14:53:04,798 - INFO - Backup creado: backup_20260207_145304

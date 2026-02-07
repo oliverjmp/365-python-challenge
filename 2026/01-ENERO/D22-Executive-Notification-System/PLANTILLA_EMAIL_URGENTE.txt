@@ -1,0 +1,8 @@
+ASUNTO: 🚨 ALERTA CRÍTICA DETECTADA (07/02/2026 15:13)
+
+Se han detectado comentarios con alta insatisfacción:
+
+💬 "La aplicacion se cierra sola y es muy lenta." | 📊 Score: -0.8
+----------------------------------------
+💬 "No me gusta nada el nuevo diseño de la web." | 📊 Score: -0.8
+----------------------------------------
