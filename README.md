@@ -157,7 +157,7 @@ Día	Carpeta	Descripción	Estado
 
 28	28-ENERO  🔍 Minería de Texto y Búsqueda SQL ✔
 
-29	29-ENERO 
+29	29-ENERO  📊 Exportación y Reportabilidad (SQL a Excel) ✔
 
 30	30-ENERO 
 
