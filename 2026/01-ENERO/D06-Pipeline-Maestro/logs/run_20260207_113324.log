@@ -1,0 +1,19 @@
+STEP: D01 - ETL Clima
+STATUS: FAILED
+TIME: 1.6s
+LOG:
+Traceback (most recent call last):
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D01-ETL-Clima\main.py", line 108, in <module>
+    mostrar_pronostico(raw, "Alcobendas")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D01-ETL-Clima\main.py", line 93, in mostrar_pronostico
+    print(f"\U0001f4c5 {fechas[i]} | Máx: {maxs[i]}°C | Mín: {mins[i]}°C", flush=True)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c5' in position 0: character maps to <undefined>
+
+----------------------------------------
+RESULTADO: FALLIDO
+TIEMPO TOTAL: 1.6s

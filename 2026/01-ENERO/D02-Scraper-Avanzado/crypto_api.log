@@ -1,0 +1,50 @@
+2026-02-07 11:11:54,975 - INFO - Datos extraídos de CoinGecko usando UA: Mozilla/5.0 (Windows...
+2026-02-07 11:11:54,990 - INFO - Archivo guardado exitosamente en: precios_crypto.csv
+2026-02-07 11:38:13,770 - INFO - === INICIO D02 ===
+2026-02-07 11:38:14,077 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:38:14,103 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:38:14,104 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 11:38:34,879 - INFO - === INICIO D02 ===
+2026-02-07 11:38:34,961 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:38:34,976 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:38:34,977 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 11:39:52,364 - INFO - === INICIO D02 ===
+2026-02-07 11:39:52,564 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:39:52,570 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:39:52,570 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 11:41:03,423 - INFO - === INICIO D02 ===
+2026-02-07 11:41:03,647 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:41:03,656 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:41:03,656 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 11:42:06,589 - INFO - === INICIO D02 ===
+2026-02-07 11:42:06,802 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:42:06,810 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:42:06,811 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 11:44:21,462 - INFO - === INICIO D02 ===
+2026-02-07 11:44:21,691 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:44:21,698 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:44:21,698 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 11:45:48,095 - INFO - === INICIO D02 ===
+2026-02-07 11:45:48,289 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:45:48,295 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:45:48,295 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 11:46:57,562 - INFO - === INICIO D02 ===
+2026-02-07 11:46:57,785 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:46:57,792 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:46:57,792 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 11:47:21,093 - INFO - === INICIO D02 ===
+2026-02-07 11:47:21,199 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:47:21,216 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:47:21,217 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 11:51:35,386 - INFO - === INICIO D02 ===
+2026-02-07 11:51:35,617 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:51:35,624 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:51:35,624 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 11:54:12,958 - INFO - === INICIO D02 ===
+2026-02-07 11:54:13,195 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:54:13,206 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:54:13,206 - INFO - === FIN D02 - EXITOSO ===
+2026-02-07 12:13:34,911 - INFO - === INICIO D02 ===
+2026-02-07 12:13:35,130 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 12:13:35,140 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 12:13:35,141 - INFO - === FIN D02 - EXITOSO ===

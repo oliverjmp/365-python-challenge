@@ -1,0 +1,14 @@
+{
+    "required_columns": ["id", "texto", "valor"],
+    "column_types": {
+        "id": "int",
+        "texto": "str",
+        "valor": "float"
+    },
+    "range_rules": {
+        "valor": {
+            "min": 0,
+            "max": 1000
+        }
+    }
+}

@@ -1,2 +1,0 @@
-2026-02-04 22:59:33,122 - INFO - Validando dataset: data.csv
-2026-02-04 22:59:33,125 - CRITICAL - No se pudo leer el archivo: [Errno 2] No such file or directory: 'data.csv'

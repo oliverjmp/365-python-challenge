@@ -1,0 +1,52 @@
+STEP: D01 - ETL Clima
+STATUS: SUCCESS
+TIME: 1.25s
+LOG:
+2026-02-07 11:38:32,560 - INFO - === INICIO D01 ===
+2026-02-07 11:38:32,736 - INFO - API: Extraccion exitosa.
+2026-02-07 11:38:32,737 - INFO - Transformacion: 168 registros listos.
+2026-02-07 11:38:32,758 - INFO - Carga: OK en clima.db
+2026-02-07 11:38:32,759 - INFO - === FIN D01 - EXITOSO ===
+D01_STATUS: SUCCESS
+
+----------------------------------------
+STEP: D02 - Crypto API
+STATUS: SUCCESS
+TIME: 2.33s
+LOG:
+2026-02-07 11:38:34,879 - INFO - === INICIO D02 ===
+2026-02-07 11:38:34,961 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:38:34,976 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:38:34,977 - INFO - === FIN D02 - EXITOSO ===
+D02_STATUS: SUCCESS
+
+----------------------------------------
+STEP: D03 - Excel Format
+STATUS: FAILED
+TIME: 2.22s
+LOG:
+Traceback (most recent call last):
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D03-Excel-Profesional\main.py", line 91, in <module>
+    df_crypto = cargar_csv()
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D03-Excel-Profesional\main.py", line 23, in cargar_csv
+    print(f"\U0001f4c2 Cargando datos desde: {RUTA_CSV_DIA2.name}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c2' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D03-Excel-Profesional\main.py", line 95, in <module>
+    print(f"\u274c Error en el proceso: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+
+----------------------------------------
+RESULTADO: FALLIDO
+TIEMPO TOTAL: 5.81s

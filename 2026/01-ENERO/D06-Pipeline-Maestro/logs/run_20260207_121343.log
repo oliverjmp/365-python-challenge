@@ -1,0 +1,50 @@
+STEP: D01 - ETL Clima
+STATUS: SUCCESS
+TIME: 0.98s
+LOG:
+2026-02-07 12:13:33,144 - INFO - === INICIO D01 ===
+2026-02-07 12:13:33,350 - INFO - API: Extraccion exitosa.
+2026-02-07 12:13:33,353 - INFO - Transformacion: 168 registros listos.
+2026-02-07 12:13:33,374 - INFO - Carga: OK en clima.db
+2026-02-07 12:13:33,375 - INFO - === FIN D01 - EXITOSO ===
+D01_STATUS: SUCCESS
+
+----------------------------------------
+STEP: D02 - Crypto API
+STATUS: SUCCESS
+TIME: 1.87s
+LOG:
+2026-02-07 12:13:34,911 - INFO - === INICIO D02 ===
+2026-02-07 12:13:35,130 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 12:13:35,140 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 12:13:35,141 - INFO - === FIN D02 - EXITOSO ===
+D02_STATUS: SUCCESS
+
+----------------------------------------
+STEP: D03 - Excel Format
+STATUS: SUCCESS
+TIME: 1.66s
+LOG:
+D03_SUCCESS
+
+----------------------------------------
+STEP: D04 - Dashboard
+STATUS: SUCCESS
+TIME: 1.43s
+LOG:
+Iniciando D04 - Dashboard...
+D04_OK: Dashboard Premium generado.
+
+----------------------------------------
+STEP: D05 - Export PDF
+STATUS: SUCCESS
+TIME: 4.99s
+LOG:
+Iniciando D05 - Exportacion PDF...
+Abriendo Excel Premium...
+Exportando a PDF...
+D05_OK: PDF Generado.
+
+----------------------------------------
+RESULTADO GLOBAL: EXITOSO
+TIEMPO TOTAL: 10.93s

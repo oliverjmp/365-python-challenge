@@ -1,0 +1,52 @@
+STEP: D01 - ETL Clima
+STATUS: SUCCESS
+TIME: 1.1s
+LOG:
+2026-02-07 11:39:50,213 - INFO - === INICIO D01 ===
+2026-02-07 11:39:50,428 - INFO - API: Extraccion exitosa.
+2026-02-07 11:39:50,433 - INFO - Transformacion: 168 registros listos.
+2026-02-07 11:39:50,477 - INFO - Carga: OK en clima.db
+2026-02-07 11:39:50,478 - INFO - === FIN D01 - EXITOSO ===
+D01_STATUS: SUCCESS
+
+----------------------------------------
+STEP: D02 - Crypto API
+STATUS: SUCCESS
+TIME: 2.21s
+LOG:
+2026-02-07 11:39:52,364 - INFO - === INICIO D02 ===
+2026-02-07 11:39:52,564 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:39:52,570 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:39:52,570 - INFO - === FIN D02 - EXITOSO ===
+D02_STATUS: SUCCESS
+
+----------------------------------------
+STEP: D03 - Excel Format
+STATUS: FAILED
+TIME: 1.93s
+LOG:
+Traceback (most recent call last):
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D03-Excel-Profesional\main.py", line 70, in ejecutar_excel
+    print(f"\u2705 Reporte Excel generado exitosamente.")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D03-Excel-Profesional\main.py", line 78, in <module>
+    exito = ejecutar_excel()
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D03-Excel-Profesional\main.py", line 74, in ejecutar_excel
+    print(f"\u274c Error en Día 03: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+
+----------------------------------------
+RESULTADO: FALLIDO
+TIEMPO TOTAL: 5.24s

@@ -1,0 +1,24 @@
+Pipeline Execution Report: 2026-02-07 11:24:47.013418
+========================================
+
+STEP: D01 - ETL Clima
+STATUS: FAILED
+DURATION: 0.98s
+OUTPUT:
+Traceback (most recent call last):
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D01-ETL-Clima\main.py", line 124, in <module>
+    mostrar_pronostico_5_dias(datos_raw, ciudad_nombre)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D01-ETL-Clima\main.py", line 109, in mostrar_pronostico_5_dias
+    print(f"{fechas[i]} \u2192 Máx: {maximas[i]}°C | Mín: {minimas[i]}°C")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 11: character maps to <undefined>
+
+----------------------------------------
+
+
+RESULTADO GLOBAL: FALLIDO (TERMINACIÓN PREMATURA)
+TIEMPO DE EJECUCIÓN TOTAL: 0.99s

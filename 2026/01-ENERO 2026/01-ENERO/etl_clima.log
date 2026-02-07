@@ -1,5 +1,0 @@
-2026-02-01 23:31:41,696 - INFO - === INICIO DEL PIPELINE ETL ===
-2026-02-01 23:31:41,899 - INFO - Datos extraídos correctamente desde la API.
-2026-02-01 23:31:41,900 - INFO - Transformación completada.
-2026-02-01 23:31:41,909 - INFO - Datos cargados correctamente en SQLite.
-2026-02-01 23:31:41,909 - INFO - === FIN DEL PIPELINE ETL ===

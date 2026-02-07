@@ -1,0 +1,11 @@
+Pipeline Run: 2026-02-07 11:23:01.100970
+------------------------------
+
+[ERROR] D01 - ETL Clima | Duración: 1.32s
+Salida:
+None
+--------------------
+
+
+STATUS FINAL: FALLIDO
+TIEMPO TOTAL: 1.33s

@@ -1,0 +1,28 @@
+STEP: D01 - ETL Clima
+STATUS: FAILED
+TIME: 5.15s
+LOG:
+STDOUT:
+2026-02-07 11:30:00,461 - INFO - === INICIO D01 ===
+2026-02-07 11:30:04,725 - INFO - API: Extracción exitosa.
+2026-02-07 11:30:04,726 - INFO - Transformación: 168 registros listos.
+2026-02-07 11:30:04,744 - INFO - Carga: OK en clima.db
+
+[PRONÓSTICO: Alcobendas]
+
+STDERR:
+Traceback (most recent call last):
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D01-ETL-Clima\main.py", line 108, in <module>
+    mostrar_pronostico(raw, "Alcobendas")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olive\OneDrive\Escritorio\Oliver Preparacion Profesional\365-python-challenge\2026\01-ENERO 2026\D01-ETL-Clima\main.py", line 93, in mostrar_pronostico
+    print(f"\U0001f4c5 {fechas[i]} | Máx: {maxs[i]}°C | Mín: {mins[i]}°C", flush=True)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c5' in position 0: character maps to <undefined>
+
+----------------------------------------
+RESULTADO: FALLIDO
+TIEMPO TOTAL: 5.15s

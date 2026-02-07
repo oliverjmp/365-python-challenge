@@ -1,0 +1,33 @@
+STEP: D01 - ETL Clima
+STATUS: SUCCESS
+TIME: 1.68s
+LOG:
+2026-02-07 11:46:55,664 - INFO - === INICIO D01 ===
+2026-02-07 11:46:55,876 - INFO - API: Extraccion exitosa.
+2026-02-07 11:46:55,881 - INFO - Transformacion: 168 registros listos.
+2026-02-07 11:46:55,899 - INFO - Carga: OK en clima.db
+2026-02-07 11:46:55,899 - INFO - === FIN D01 - EXITOSO ===
+D01_STATUS: SUCCESS
+
+----------------------------------------
+STEP: D02 - Crypto API
+STATUS: SUCCESS
+TIME: 2.04s
+LOG:
+2026-02-07 11:46:57,562 - INFO - === INICIO D02 ===
+2026-02-07 11:46:57,785 - INFO - API: Datos de cripto obtenidos con exito.
+2026-02-07 11:46:57,792 - INFO - CSV: Guardado en precios_crypto.csv
+2026-02-07 11:46:57,792 - INFO - === FIN D02 - EXITOSO ===
+D02_STATUS: SUCCESS
+
+----------------------------------------
+STEP: D03 - Excel Format
+STATUS: FAILED
+TIME: 2.06s
+LOG:
+STDOUT: STDERR: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+STDERR: 
+----------------------------------------
+RESULTADO GLOBAL: FALLIDO
+TIEMPO TOTAL: 5.77s

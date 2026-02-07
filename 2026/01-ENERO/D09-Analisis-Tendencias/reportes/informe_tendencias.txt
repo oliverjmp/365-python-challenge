@@ -1,0 +1,30 @@
+===============================================
+   INFORME DE INTELIGENCIA TEXTUAL - D09
+===============================================
+Fecha: 2026-02-07 12:14:32
+Archivo: entrada.txt
+Palabras totales: 1368
+Categoria detectada: Religioso (0.44% de densidad)
+-----------------------------------------------
+
+TOP 10 PALABRAS CLAVE:
+- Dios: 44 veces
+- Tierra: 35 veces
+- Toda: 16 veces
+- Cielos: 15 veces
+- Fue: 15 veces
+- Dia: 15 veces
+- Hombre: 13 veces
+- Dijo: 12 veces
+- Aguas: 11 veces
+- Todo: 11 veces
+
+TOP 5 FRASES FRECUENTES (BIGRAMAS):
+- "jehova dios": 11 veces
+- "dijo dios": 8 veces
+- "vio dios": 7 veces
+- "fue tarde": 6 veces
+- "tarde manana": 6 veces
+
+CONCLUSION:
+El texto analizado muestra una clara tendencia hacia el ambito religioso.

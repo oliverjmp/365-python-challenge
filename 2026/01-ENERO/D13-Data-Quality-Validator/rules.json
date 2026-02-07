@@ -1,0 +1,15 @@
+{
+    "required_columns": ["id", "fecha", "valor", "categoria"],
+    "column_types": {
+        "id": "int",
+        "fecha": "datetime",
+        "valor": "float",
+        "categoria": "str"
+    },
+    "range_rules": {
+        "valor": {
+            "min": 0,
+            "max": 10000
+        }
+    }
+}
