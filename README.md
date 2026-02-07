@@ -143,20 +143,25 @@ Día 5 → 05-ENERO
 ## 📅 MES 2: Conectividad y Escalabilidad (En Progreso ⏳)
 > **Enfoque:** APIs Avanzadas, Web Scraping Dinámico e Interfaces Gráficas.
 
-### 📊 Tabla de Progreso - Reto 365 Python (Fase 2 & Inicio Fase 3)
+### 📊 Tabla de Progreso - Reto 365 Python (Fase 3 & Fase 4)
 
-| Día | Fecha  | Proyecto / Hito | Estado |
-| :---: | :--- | :--- | :---: |
-| 32 | 01-FEB | 🌐 **Consumo de APIs y JSON:** Primeras peticiones exitosas a CoinGecko. | ✅ |
-| 33 | 02-FEB | 📈 **Monitor de Volatilidad:** Lógica de comparación de precios y cálculo de variaciones. | ✅ |
-| 34 | 03-FEB | 🤖 **Telegram Resilient Bot:** Alertas push y blindaje contra errores (Rate Limit/404). | ✅ |
-| 35 | 04-FEB | 🚀 **Smart Orchestrator:** Despacho dinámico de comandos y gestión de rutas con `pathlib`. | ✅ |
-| 36 | 05-FEB | 🎭 **Sentiment Gatekeeper:** Middleware de seguridad emocional y normalización Unicode. | ✅ |
-| 37 | 06-FEB | 🛡️ **Stateful Shield:** Gestión de estados (warnings) y bloqueo temporal (`time.sleep`). | ✅ |
-| 38 | 07-FEB | 🗄️ **Persistent Database:** Memoria a largo plazo con sincronización de conducta en JSON. | ✅ |
-| 39 | 08-FEB | 📊 **Security Audit Reporting:** Data Linking entre JSON y Excel para auditoría. | ✅ |
-| 40 | 09-FEB | 🚨 **Security Alerts:** Notificación de incidentes críticos y bloqueo persistente. | ✅ |
-| 41 | 10-FEB | 📂 **Smart File Organizer:** Automatización de OS para clasificación de archivos. | ✅ |
+| Día | Fecha  | Proyecto / Hito | Funcionalidad Clave | Estado |
+| :---: | :--- | :--- | :--- | :---: |
+| 41 | 10-FEB | 📂 **Smart File Organizer** | Clasificación de archivos por extensión con `shutil`. | ✅ |
+| 42 | 11-FEB | 🏷️ **Bulk Timestamp Renamer** | Control de versiones dinámico mediante fechas ISO. | ✅ |
+| 43 | 12-FEB | 🔍 **File Integrity Filter** | Segregación de archivos vacíos (0 KB). | ✅ |
+| 44 | 13-FEB | 📜 **Transaction Logging** | Auditoría forense de movimientos en archivos `.log`. | ✅ |
+| 45 | 14-FEB | 🛡️ **Snapshot Backup** | Compresión preventiva en ZIP con `zipfile`. | ✅ |
+| 46 | 15-FEB | 🌪️ **Ultimate Orchestrator** | Integración total del pipeline S.A.F.E. | ✅ |
+| 47 | 16-FEB | 🌐 **Web Scraping Foundations** | Peticiones HTTP, User-Agents y BeautifulSoup. | ✅ |
+| 48 | 17-FEB | 📊 **Table Scraper to CSV** | Extracción de tablas HTML y persistencia en dataset. | ✅ |
+| 49 | 18-FEB | 🕷️ **Recursive Web Crawler** | Navegación multinivel y throttling de cortesía. | ✅ |
+| 50 | 19-FEB | 🖼️ **Image Batch Downloader** | Descarga de flujos binarios (Byte Streaming). | ✅ |
+| 51 | 20-FEB | 🔍 **Search Form Automation** | Inyección de parámetros dinámicos en buscadores. | 🚧 |
+
+---
+**Fase actual:** 🌐 Fase 4 - Web Scraping & Data Extraction
+**Próximo Hito:** Interacción con formularios y sesiones de login (D52).
 ---
 
 ### 🛠️ Tecnologías Core (Mes 1)
