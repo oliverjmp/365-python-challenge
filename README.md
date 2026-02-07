@@ -157,9 +157,11 @@ Día	Carpeta	Descripción	Estado
 
 28	28-ENERO  🔍 Minería de Texto y Búsqueda SQL ✔
 
-29	29-ENERO  📊 Exportación y Reportabilidad (SQL a Excel) ✔
+29	29-ENERO  🧹 Mantenimiento y Depuración de Datos (CRUD Delete) ✔
 
-30	30-ENERO 
+30	30-ENERO  📊 Exportación y Reportabilidad (SQL a Excel) ✔
+
+31	31-ENERO  🎊 Cierre del Bloque de Inteligencia de Negocio ✔
 
 ⭐ Proyectos destacados
 🔹 Día 11 — Modelo de Análisis de Sentimientos
