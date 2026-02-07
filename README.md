@@ -153,11 +153,11 @@ Día	Carpeta	Descripción	Estado
 
 26	26-ENERO  📊 Analítica Gerencial y KPIs ✔
 
-27	27-ENERO 
+27	27-ENERO  📥 DíaIngesta de Datos Incremental ✔
 
-28	28-ENERO 
+28	28-ENERO  🔍 Minería de Texto y Búsqueda SQL ✔
 
-29	29-ENERO 
+29	29-ENERO  📊 Exportación y Reportabilidad (SQL a Excel) ✔
 
 30	30-ENERO 
 
