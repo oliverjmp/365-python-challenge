@@ -1,0 +1,91 @@
+{
+    "execution_time_seconds": 2.0915,
+    "total_sources_queried": 6,
+    "max_concurrency_limit": 3,
+    "payloads": [
+        {
+            "url": "https://httpbin.org/delay/1",
+            "status": 200,
+            "latency_seconds": 1.4761,
+            "data": {
+                "args": {},
+                "data": "",
+                "files": {},
+                "form": {},
+                "headers": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Host": "httpbin.org",
+                    "User-Agent": "python-httpx/0.28.1",
+                    "X-Amzn-Trace-Id": "Root=1-6a726bb2-2ca3361e4d172b02345cd3f3"
+                },
+                "origin": "79.116.238.135",
+                "url": "https://httpbin.org/delay/1"
+            }
+        },
+        {
+            "url": "https://httpbin.org/json",
+            "status": 200,
+            "latency_seconds": 0.4866,
+            "data": {
+                "slideshow": {
+                    "author": "Yours Truly",
+                    "date": "date of publication",
+                    "slides": [
+                        {
+                            "title": "Wake up to WonderWidgets!",
+                            "type": "all"
+                        },
+                        {
+                            "items": [
+                                "Why <em>WonderWidgets</em> are great",
+                                "Who <em>buys</em> WonderWidgets"
+                            ],
+                            "title": "Overview",
+                            "type": "all"
+                        }
+                    ],
+                    "title": "Sample Slide Show"
+                }
+            }
+        },
+        {
+            "url": "https://httpbin.org/uuid",
+            "status": 200,
+            "latency_seconds": 0.6894,
+            "data": {
+                "uuid": "12fd993a-c9c7-4ac9-9581-bcbb398c1cbd"
+            }
+        },
+        {
+            "url": "https://httpbin.org/user-agent",
+            "status": 200,
+            "latency_seconds": 0.116,
+            "data": {
+                "user-agent": "python-httpx/0.28.1"
+            }
+        },
+        {
+            "url": "https://httpbin.org/headers",
+            "status": 200,
+            "latency_seconds": 0.1151,
+            "data": {
+                "headers": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Host": "httpbin.org",
+                    "User-Agent": "python-httpx/0.28.1",
+                    "X-Amzn-Trace-Id": "Root=1-6a726bb2-6b88ac4f684d50ed6d47f200"
+                }
+            }
+        },
+        {
+            "url": "https://httpbin.org/ip",
+            "status": 200,
+            "latency_seconds": 0.1202,
+            "data": {
+                "origin": "79.116.238.135"
+            }
+        }
+    ]
+}
