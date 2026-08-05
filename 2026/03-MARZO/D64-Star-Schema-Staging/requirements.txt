@@ -1,0 +1,4 @@
+duckdb==0.10.0
+sqlmodel==0.0.16
+pydantic==2.6.3
+pytest==8.1.0

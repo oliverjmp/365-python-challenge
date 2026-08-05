@@ -1,0 +1,11 @@
+transaction_id,customer_id,customer_name,country,product_id,product_name,category,date,quantity,total_amount
+TXN-1001,1,Alice,Spain,101,Laptop,Electronics,2026-03-01,1,1200.0
+TXN-1002,2,Bob,France,102,Mouse,Accessories,2026-03-02,2,50.0
+TXN-1003,3,Carlos,Spain,103,Keyboard,Accessories,2026-03-03,1,75.5
+TXN-1004,4,Diana,Germany,104,Monitor,Electronics,2026-03-04,1,300.0
+TXN-1005,5,Elena,Spain,105,Headphones,Accessories,2026-03-05,3,150.0
+TXN-1006,6,Frank,Italy,106,Smartphone,Electronics,2026-03-06,1,850.0
+TXN-1007,7,Grace,Spain,107,Tablet,Electronics,2026-03-07,2,900.0
+TXN-1008,8,Hugo,Portugal,108,USB Cable,Accessories,2026-03-08,5,25.0
+TXN-1009,9,Isabel,Spain,109,Webcam,Electronics,2026-03-09,1,85.0
+TXN-1010,10,Jorge,France,110,Printer,Electronics,2026-03-10,1,220.0
