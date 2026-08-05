@@ -1,98 +1,128 @@
-from datetime import datetime
-from typing import List, Optional
-from pathlib import Path
-import logging
+from dataclasses import dataclass
+import os
+import pandas as pd
+from sqlalchemy import Column, Float, Integer, String, create_engine
+from sqlalchemy.orm import declarative_base, sessionmaker
 
-from sqlalchemy import String, Float, DateTime, ForeignKey, create_engine
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship, sessionmaker
+# Base declarativa para el ORM de SQLAlchemy
+Base = declarative_base()
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-logger = logging.getLogger("SQLAlchemy-ORM-Core")
 
-# Configuración de ruta absoluta para la base de datos SQLite local
-DB_PATH = Path(__file__).resolve().parent / "enterprise_database.db"
-DATABASE_URL = f"sqlite:///{DB_PATH}"
+class TransactionModel(Base):
+    """Modelo ORM corporativo para la persistencia transaccional local en SQLite."""
 
-# Base Declarativa moderna para SQLAlchemy v2.0+
-class Base(DeclarativeBase):
-    pass
+    __tablename__ = "transactions"
 
-class DepartmentModel(Base):
-    __tablename__ = "departments"
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    customer_id = Column(String(50), nullable=False)
+    transaction_date = Column(String(20), nullable=False)
+    amount = Column(Float, nullable=False)
+    status = Column(String(20), nullable=False)
 
-    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
-    name: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
-    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
-    # Relación uno a muchos con empleados
-    employees: Mapped[List["EmployeeModel"]] = relationship(
-        back_populates="department", cascade="all, delete-orphan"
-    )
+@dataclass(frozen=True)
+class AnalyticsDTO:
+    customer_id: str
+    transaction_date: str
+    amount: float
+    rolling_avg_3m: float
+    customer_rank: int
 
-    def __repr__(self) -> str:
-        return f"<Department(id={self.id}, name='{self.name}')>"
 
-class EmployeeModel(Base):
-    __tablename__ = "employees"
+def get_sqlite_engine() -> object:
+    """Inicializa el motor SQLite asegurando que el archivo de base de datos
 
-    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
-    full_name: Mapped[str] = mapped_column(String(100), nullable=False)
-    email: Mapped[str] = mapped_column(String(120), unique=True, nullable=False)
-    salary: Mapped[float] = mapped_column(Float, nullable=False)
-    department_id: Mapped[int] = mapped_column(ForeignKey("departments.id"), nullable=False)
-    hired_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    se ubique de manera determinista en el directorio actual del script D62.
+    """
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    db_path = os.path.join(current_dir, "enterprise_database.db")
 
-    # Relación inversa
-    department: Mapped["DepartmentModel"] = relationship(back_populates="employees")
-
-    def __repr__(self) -> str:
-        return f"<Employee(id={self.id}, name='{self.full_name}', salary={self.salary})>"
-
-def init_database() -> sessionmaker:
-    """Inicializa el motor de base de datos y crea las tablas basadas en los modelos ORM."""
-    engine = create_engine(DATABASE_URL, echo=False, future=True)
+    engine = create_engine(f"sqlite:///{db_path}", echo=False)
     Base.metadata.create_all(engine)
-    logger.info(f"Base de datos inicializada correctamente en: {DB_PATH}")
-    return sessionmaker(bind=engine, expire_on_commit=False)
+    return engine
 
-def seed_and_query_data(SessionLocal: sessionmaker) -> None:
-    """Ejecuta transacciones seguras e inserción de datos relacionales."""
-    with SessionLocal() as session:
-        try:
-            # 1. Crear departamentos
-            dept_data = DepartmentModel(name="Data Engineering & Analytics")
-            
-            # 2. Crear empleados vinculados transaccionalmente
-            emp1 = EmployeeModel(
-                full_name="Oliver Morales",
-                email="oliver.morales@enterprise.com",
-                salary=4500.0,
-                department=dept_data
-            )
-            emp2 = EmployeeModel(
-                full_name="Sofía Valenzuela",
-                email="sofia.valenzuela@enterprise.com",
-                salary=4800.0,
-                department=dept_data
-            )
 
-            session.add_all([dept_data, emp1, emp2])
-            session.commit()
-            logger.info("[SUCCESS] Transacción ORM completada: Registros persistidos.")
+def seed_sample_data(engine) -> None:
+    """Inserta datos transaccionales de prueba si la tabla se encuentra vacía."""
+    Session = sessionmaker(bind=engine)
+    session = Session()
 
-        except Exception as e:
-            session.rollback()
-            logger.error(f"Fallo crítico en la transacción, rollback ejecutado: {str(e)}")
-            raise
+    if session.query(TransactionModel).count() == 0:
+        sample_records = [
+            TransactionModel(
+                customer_id="CUST_001",
+                transaction_date="2026-01-15",
+                amount=1200.0,
+                status="COMPLETED",
+            ),
+            TransactionModel(
+                customer_id="CUST_001",
+                transaction_date="2026-02-15",
+                amount=1500.0,
+                status="COMPLETED",
+            ),
+            TransactionModel(
+                customer_id="CUST_001",
+                transaction_date="2026-03-15",
+                amount=1800.0,
+                status="COMPLETED",
+            ),
+            TransactionModel(
+                customer_id="CUST_002",
+                transaction_date="2026-02-10",
+                amount=950.0,
+                status="COMPLETED",
+            ),
+            TransactionModel(
+                customer_id="CUST_002",
+                transaction_date="2026-03-10",
+                amount=2200.0,
+                status="COMPLETED",
+            ),
+        ]
+        session.add_all(sample_records)
+        session.commit()
+    session.close()
 
-    # Consultar datos de forma relacional
-    with SessionLocal() as session:
-        dept = session.query(DepartmentModel).filter_by(name="Data Engineering & Analytics").first()
-        if dept:
-            logger.info(f"Departamento: {dept.name} cuenta con {len(dept.employees)} empleados:")
-            for emp in dept.employees:
-                logger.info(f" -> Empleado: {emp.full_name} | Salario: €{emp.salary}")
+
+def execute_orm_analytics(min_amount: float) -> pd.DataFrame:
+    """Ejecuta analítica avanzada delegando el cálculo de ventanas en SQL
+
+    y estructurando el resultado mediante Pandas con tipado estricto.
+    """
+    engine = get_sqlite_engine()
+    seed_sample_data(engine)
+
+    query = f"""
+        SELECT 
+            customer_id,
+            transaction_date,
+            amount,
+            AVG(amount) OVER (
+                PARTITION BY customer_id 
+                ORDER BY transaction_date 
+                ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
+            ) AS rolling_avg_3m,
+            RANK() OVER (
+                PARTITION BY transaction_date 
+                ORDER BY amount DESC
+            ) AS customer_rank
+        FROM transactions
+        WHERE status = 'COMPLETED' AND amount >= {min_amount}
+        ORDER BY transaction_date DESC;
+    """
+
+    df = pd.read_sql_query(query, con=engine)
+    return df
+
 
 if __name__ == "__main__":
-    Session = init_database()
-    seed_and_query_data(Session)
+    print("🚀 [Día 62] Ejecutando pipeline ORM con SQLAlchemy y SQLite...")
+    try:
+        df_result = execute_orm_analytics(min_amount=900.0)
+        print(
+            f"✅ Extracción exitosa. Registros procesados: {len(df_result)}"
+        )
+        print(df_result.to_string(index=False))
+    except Exception as err:
+        print(f"❌ Error crítico de ejecución: {err}")
