@@ -19,6 +19,9 @@ from models import Base            # Importa la Base declarativa para registrar 
 config = context.config
 
 # 3. Inyección explícitamente programática de la URL para evitar el KeyError en alembic.ini
+# NOTA: Este override tiene prioridad sobre el valor de alembic.ini.
+# database.py (DATABASE_URL) es la única fuente de verdad de la conexión;
+# el valor en alembic.ini se mantiene sincronizado solo por legibilidad.
 if DATABASE_URL:
     config.set_main_option("sqlalchemy.url", DATABASE_URL)
 
