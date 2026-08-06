@@ -1,0 +1,44 @@
+{
+    "execution_time_seconds": 6.2911,
+    "total_products_scraped": 6,
+    "in_stock_count": 4,
+    "out_of_stock_count": 2,
+    "products": [
+        {
+            "sku": "ENT-1001",
+            "name": "Servidor Rack ProLine X200",
+            "price": 4899.0,
+            "in_stock": true
+        },
+        {
+            "sku": "ENT-1002",
+            "name": "Switch Gestionable 48-Puertos",
+            "price": 1250.5,
+            "in_stock": true
+        },
+        {
+            "sku": "ENT-1003",
+            "name": "Licencia SaaS Analytics Suite (Anual)",
+            "price": 3600.0,
+            "in_stock": false
+        },
+        {
+            "sku": "ENT-1004",
+            "name": "Firewall Perimetral NextGen FW-9000",
+            "price": 7899.99,
+            "in_stock": true
+        },
+        {
+            "sku": "ENT-1005",
+            "name": "Cabina de Almacenamiento NAS 32TB",
+            "price": 5420.75,
+            "in_stock": true
+        },
+        {
+            "sku": "ENT-1006",
+            "name": "Estación de Trabajo GPU-Optimized",
+            "price": 3299.0,
+            "in_stock": false
+        }
+    ]
+}

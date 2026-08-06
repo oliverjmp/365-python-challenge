@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Enterprise Catalog Portal — Demo SPA</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f6f8; }
+        h1 { color: #1a1a2e; }
+        #status { color: #888; font-style: italic; }
+        .product-card {
+            background: #fff; border: 1px solid #ddd; border-radius: 6px;
+            padding: 16px; margin-bottom: 12px; max-width: 420px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .product-name { font-weight: bold; font-size: 1.05em; }
+        .product-price { color: #0a7d3c; font-weight: bold; }
+        .product-sku { color: #999; font-size: 0.85em; }
+        .product-stock { font-size: 0.85em; }
+        .in-stock { color: #0a7d3c; }
+        .out-of-stock { color: #c0392b; }
+    </style>
+</head>
+<body>
+    <h1>Enterprise Catalog Portal</h1>
+    <p id="status">Cargando catálogo desde el motor de inventario...</p>
+    <div id="product-list"></div>
+
+    <script>
+        // ------------------------------------------------------------------
+        // Simulación de una SPA real: el HTML inicial NO contiene productos.
+        // Los datos llegan vía una "llamada a API" simulada (setTimeout)
+        // y se inyectan en el DOM dinámicamente, igual que haría React/Vue
+        // tras un fetch(). Esto obliga a que el scraper use espera explícita
+        // por selector en vez de parsear el HTML estático inicial.
+        // ------------------------------------------------------------------
+
+        const MOCK_API_LATENCY_MS = 1500;
+
+        const mockInventoryResponse = [
+            { sku: "ENT-1001", name: "Servidor Rack ProLine X200", price: 4899.00, in_stock: true },
+            { sku: "ENT-1002", name: "Switch Gestionable 48-Puertos", price: 1250.50, in_stock: true },
+            { sku: "ENT-1003", name: "Licencia SaaS Analytics Suite (Anual)", price: 3600.00, in_stock: false },
+            { sku: "ENT-1004", name: "Firewall Perimetral NextGen FW-9000", price: 7899.99, in_stock: true },
+            { sku: "ENT-1005", name: "Cabina de Almacenamiento NAS 32TB", price: 5420.75, in_stock: true },
+            { sku: "ENT-1006", name: "Estación de Trabajo GPU-Optimized", price: 3299.00, in_stock: false },
+        ];
+
+        function renderCatalog(products) {
+            const container = document.getElementById("product-list");
+            const status = document.getElementById("status");
+            status.textContent = `Catálogo cargado — ${products.length} productos disponibles.`;
+
+            products.forEach((p) => {
+                const card = document.createElement("div");
+                card.className = "product-card";
+                card.setAttribute("data-sku", p.sku);
+
+                card.innerHTML = `
+                    <div class="product-name">${p.name}</div>
+                    <div class="product-price" data-price="${p.price}">€${p.price.toFixed(2)}</div>
+                    <div class="product-sku">SKU: ${p.sku}</div>
+                    <div class="product-stock ${p.in_stock ? 'in-stock' : 'out-of-stock'}">
+                        ${p.in_stock ? 'En stock' : 'Agotado'}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            // Señal para el scraper: marca que la carga async terminó.
+            document.body.setAttribute("data-catalog-ready", "true");
+        }
+
+        setTimeout(() => renderCatalog(mockInventoryResponse), MOCK_API_LATENCY_MS);
+    </script>
+</body>
+</html>
