@@ -33,3 +33,15 @@ def test_df_vacio_si_no_hay_datos(transformer):
     df = transformer.clean_and_transform([{"wrong": "data"}])
     assert df.empty
     assert list(df.columns) == ["id", "value", "category"]
+
+
+def test_transformer_unexpected_exception(transformer, monkeypatch):
+    """Fuerza una excepción inesperada para cubrir el bloque de error genérico (Líneas 46-47)."""
+    
+    def mock_init(*args, **kwargs):
+        raise Exception("Error crítico totalmente inesperado")
+
+    monkeypatch.setattr("src.etl_transformer.RecordSchema", mock_init)
+    
+    df_result = transformer.clean_and_transform([{"id": 1, "value": 10.0, "category": "test"}])
+    assert df_result.empty
