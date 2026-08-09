@@ -1,0 +1,16 @@
+{
+  "modules": [
+    {
+      "name": "D71-System-Metrics-Collector",
+      "path": "src/monitor.py"
+    },
+    {
+      "name": "D72-Docker-Containerization",
+      "path": "src/analyzer.py"
+    },
+    {
+      "name": "D73-CLI-Command-Center",
+      "path": "src/cli.py"
+    }
+  ]
+}
