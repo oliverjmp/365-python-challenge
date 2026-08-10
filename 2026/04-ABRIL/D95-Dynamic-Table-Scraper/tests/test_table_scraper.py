@@ -3,6 +3,7 @@ import pandas as pd
 from src.table_scraper import DynamicTableScraper
 
 def test_scrape_table_success():
+    """Valida la extracción exitosa de una tabla."""
     html = "<table id='data-table'><tr><th>Nombre</th><th>Edad</th></tr><tr><td>Oliver</td><td>30</td></tr></table>"
     scraper = DynamicTableScraper(html)
     df = scraper.scrape_table(table_id='data-table')
@@ -11,28 +12,21 @@ def test_scrape_table_success():
     assert int(df.iloc[0]['Edad']) == 30
 
 def test_scrape_table_not_found():
+    """Valida el comportamiento cuando no se encuentra la tabla."""
     scraper = DynamicTableScraper("<html></html>")
     df = scraper.scrape_table(table_id='fake')
     assert df.empty
-
-def test_scrape_table_exception(monkeypatch):
-    scraper = DynamicTableScraper("<table id='data-table'></table>")
-    # Forzamos un error en el método find de BeautifulSoup
-    monkeypatch.setattr("bs4.element.Tag.find_all", lambda *a, **kw: (_ for _ in ()).throw(ValueError("Simulado")))
-    df = scraper.scrape_table(table_id='data-table')
-    assert df.empty
-
+    
 def test_scrape_table_exception(monkeypatch):
     """Fuerza una excepción para cubrir el bloque de error."""
-    # Instanciamos con HTML válido para pasar el primer filtro
-    scraper = DynamicTableScraper("<table><tr><td>Data</td></tr></table>")
+    scraper = DynamicTableScraper("<table id='data-table'><tr><td>Data</td></tr></table>")
     
-    # Inyectamos el error en find_all, que se ejecuta DENTRO del bloque try
+    # Forzamos un error haciendo que find_all lance una excepción dentro del try
     def mock_find_all(*args, **kwargs):
-        raise Exception("Error forzado")
+        raise Exception("Error forzado para cobertura")
 
-    monkeypatch.setattr("bs4.element.Tag.find_all", mock_find_all)
+    monkeypatch.setattr("bs4.BeautifulSoup.find_all", mock_find_all)
     
-    # Esto activará el 'except Exception:' en la línea 27
-    df = scraper.scrape_table()
+    # Esto activará el bloque except Exception: garantizando el 100% de cobertura
+    df = scraper.scrape_table(table_id='data-table')
     assert df.empty
