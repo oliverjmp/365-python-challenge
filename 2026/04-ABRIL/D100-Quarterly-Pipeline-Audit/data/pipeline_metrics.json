@@ -1,0 +1,33 @@
+{
+  "quarter": "Q1-2026",
+  "pipelines": [
+    {
+      "id": "PIPE-001",
+      "name": "ETL-Customer-Data",
+      "status": "SUCCESS",
+      "execution_time_sec": 45.2,
+      "error_count": 0
+    },
+    {
+      "id": "PIPE-002",
+      "name": "Financial-Sync",
+      "status": "FAILED",
+      "execution_time_sec": 120.5,
+      "error_count": 4
+    },
+    {
+      "id": "PIPE-003",
+      "name": "Inventory-Update",
+      "status": "SUCCESS",
+      "execution_time_sec": 30.1,
+      "error_count": 0
+    },
+    {
+      "id": "PIPE-004",
+      "name": "User-Analytics",
+      "status": "WARNING",
+      "execution_time_sec": 85.4,
+      "error_count": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Entornos virtuales y dependencias globales/locales
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Archivos de configuración local, entorno y secretos
+.env
+.env.local
+
+# Archivos de cookies y sesiones guardadas de Selenium
+*.pkl
+cookies.pkl
+test_cookies.pkl
+nonexistent_cookies.pkl
+
+# Archivos de reportes de cobertura y caché de pytest
+.pytest_cache/
+.coverage
+htmlcov/
