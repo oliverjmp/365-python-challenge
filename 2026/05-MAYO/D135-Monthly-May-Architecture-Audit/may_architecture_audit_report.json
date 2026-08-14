@@ -1,0 +1,14 @@
+{
+    "total_checked": 5,
+    "missing_count": 1,
+    "missing_artifacts": [
+        "non_existent_model_artifact.pkl"
+    ],
+    "details": {
+        "src/__init__.py": true,
+        "src/auditor.py": true,
+        "requirements.txt": true,
+        "README.md": true,
+        "non_existent_model_artifact.pkl": false
+    }
+}
