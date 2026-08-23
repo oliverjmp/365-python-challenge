@@ -1,0 +1,4 @@
+pandas==2.2.1
+ydata-profiling==4.6.4
+pytest==8.1.1
+pytest-cov==4.1.0
