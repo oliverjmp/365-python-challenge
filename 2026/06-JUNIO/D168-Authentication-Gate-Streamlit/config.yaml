@@ -1,0 +1,20 @@
+credentials:
+  usernames:
+    admin:
+      email: admin@company.com
+      first_name: Admin
+      last_name: System
+      password: $2y$10$3z8gK9vF7x... # Hash de ejemplo (clave: admin123)
+      roles:
+        - admin
+    viewer:
+      email: viewer@company.com
+      first_name: Juan
+      last_name: Pérez
+      password: $2y$10$7vF3xK9vF... # Hash de ejemplo (clave: viewer123)
+      roles:
+        - viewer
+cookie:
+  expiry_days: 30
+  key: "clave_secreta_corporativa_super_segura"
+  name: "auth_cookie_corporate_d168"
