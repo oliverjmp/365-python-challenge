@@ -1,0 +1,40 @@
+{
+    "semester_period": "01-ENERO al 30-JUNIO 2026",
+    "components": [
+        {
+            "name": "D153-Matplotlib-Automation",
+            "coverage_percentage": 100.0,
+            "status": "active"
+        },
+        {
+            "name": "D154-Seaborn-Advanced-Viz",
+            "coverage_percentage": 100.0,
+            "status": "active"
+        },
+        {
+            "name": "D155-Plotly-Interactive-Dashboards",
+            "coverage_percentage": 100.0,
+            "status": "active"
+        },
+        {
+            "name": "D156-Streamlit-Executive-App",
+            "coverage_percentage": 100.0,
+            "status": "active"
+        },
+        {
+            "name": "D157-Pandas-Profiling-Automation",
+            "coverage_percentage": 90.0,
+            "status": "active"
+        },
+        {
+            "name": "D158-ReportLab-Dynamic-PDF-Canvas",
+            "coverage_percentage": 100.0,
+            "status": "active"
+        },
+        {
+            "name": "D159-Matplotlib-PDF-Integration",
+            "coverage_percentage": 99.0,
+            "status": "active"
+        }
+    ]
+}

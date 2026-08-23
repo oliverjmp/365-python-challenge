@@ -1,0 +1,17 @@
+{
+    "audit_metadata": {
+        "target_registry": "semestre_registry.json",
+        "semestre": "Junio - 2026",
+        "framework": "Python Core Architecture Audit"
+    },
+    "summary": {
+        "total_components": 7,
+        "fully_covered_count": 5,
+        "average_coverage": 98.43,
+        "flagged_components": [
+            "D157-Pandas-Profiling-Automation",
+            "D159-Matplotlib-PDF-Integration"
+        ],
+        "audit_status": "PASSED"
+    }
+}
