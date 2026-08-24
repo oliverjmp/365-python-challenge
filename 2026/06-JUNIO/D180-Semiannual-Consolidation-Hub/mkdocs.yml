@@ -1,0 +1,7 @@
+site_name: "D180 - Semiannual Consolidation Hub"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
