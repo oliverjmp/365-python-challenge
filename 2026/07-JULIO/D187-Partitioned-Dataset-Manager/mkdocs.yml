@@ -1,0 +1,7 @@
+site_name: "D187 - Partitioned Dataset Manager"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Arquitectura & Documentación: index.md
