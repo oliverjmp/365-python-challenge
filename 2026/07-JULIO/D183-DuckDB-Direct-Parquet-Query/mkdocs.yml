@@ -1,0 +1,7 @@
+site_name: "D183 - DuckDB Direct Parquet Query"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md

@@ -1,0 +1,7 @@
+site_name: "D182 - Parquet Columnar Storage"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
