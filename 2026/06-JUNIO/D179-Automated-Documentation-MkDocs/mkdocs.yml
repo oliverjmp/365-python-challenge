@@ -1,0 +1,7 @@
+site_name: Portafolio Analítico - D179
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
