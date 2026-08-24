@@ -1,0 +1,7 @@
+site_name: "D184 - Advanced Window Functions DuckDB"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Arquitectura & Documentación: index.md

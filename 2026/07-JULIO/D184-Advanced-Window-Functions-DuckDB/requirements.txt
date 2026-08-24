@@ -1,0 +1,9 @@
+duckdb>=0.10.0
+pyarrow>=15.0.0
+pandas==2.2.1
+plotly==5.20.0
+streamlit==1.32.2
+pytest==8.1.1
+pytest-cov==4.1.0
+mkdocs==1.5.3
+mkdocs-material==9.5.11
