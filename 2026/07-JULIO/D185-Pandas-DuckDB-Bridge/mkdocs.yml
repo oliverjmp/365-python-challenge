@@ -1,0 +1,7 @@
+site_name: "D185 - Pandas DuckDB Bridge"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Arquitectura & Documentación: index.md

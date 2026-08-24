@@ -1,0 +1,7 @@
+site_name: "D186 - JSON SemiStructured Parsing"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Arquitectura & Documentación: index.md
