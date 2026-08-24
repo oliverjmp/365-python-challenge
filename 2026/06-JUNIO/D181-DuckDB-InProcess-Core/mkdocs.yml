@@ -1,0 +1,7 @@
+site_name: "D181 - DuckDB In-Process Core"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
