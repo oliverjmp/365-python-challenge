@@ -1,0 +1,7 @@
+site_name: "D193 - DuckDB Full-Text Search"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md

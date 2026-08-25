@@ -1,0 +1,24 @@
+{
+    "nodes": [
+        {
+            "file": "raw_data.parquet",
+            "layer": "RAW",
+            "rows": 4,
+            "columns": 4
+        },
+        {
+            "file": "processed_data.parquet",
+            "layer": "PROCESSED",
+            "rows": 4,
+            "columns": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": "raw_data.parquet",
+            "to": "processed_data.parquet",
+            "transformation": "Agregaci\u00f3n y Segmentaci\u00f3n por Segmento"
+        }
+    ],
+    "last_updated": "2026-08-25 16:47:45.849657"
+}

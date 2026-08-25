@@ -1,0 +1,7 @@
+site_name: "D194 - Data Lineage Parquet Tracker"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
