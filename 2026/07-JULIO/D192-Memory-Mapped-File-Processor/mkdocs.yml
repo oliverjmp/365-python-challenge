@@ -1,0 +1,7 @@
+site_name: "D192 - Memory Mapped File Processor"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
