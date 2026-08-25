@@ -1,0 +1,7 @@
+site_name: "D190 - Auditoría de Arquitectura de Julio"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
