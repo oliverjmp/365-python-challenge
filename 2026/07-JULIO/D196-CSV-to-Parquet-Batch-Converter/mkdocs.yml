@@ -1,0 +1,7 @@
+site_name: "D196 - CSV to Parquet Batch Converter"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md

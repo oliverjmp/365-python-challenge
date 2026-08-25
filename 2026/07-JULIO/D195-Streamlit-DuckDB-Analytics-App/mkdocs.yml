@@ -1,0 +1,7 @@
+site_name: "D195 - Streamlit DuckDB Analytics App"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
