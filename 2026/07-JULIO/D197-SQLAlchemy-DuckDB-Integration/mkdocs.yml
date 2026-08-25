@@ -1,0 +1,7 @@
+site_name: "D197 - SQLAlchemy DuckDB Integration"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
