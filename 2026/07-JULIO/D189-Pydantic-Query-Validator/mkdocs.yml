@@ -1,0 +1,7 @@
+site_name: "D189 - Pydantic Query Validator"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
