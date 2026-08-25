@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  analytics-api:
+    build: .
+    container_name: d204_fastapi_analytics
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: always

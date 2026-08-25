@@ -1,0 +1,13 @@
+id,categoria,monto,fecha,region
+1,Tecnología,1200.50,2026-07-01,Norte
+2,Oficina,150.00,2026-07-02,Sur
+3,Tecnología,450.99,2026-07-03,Este
+4,Servicios,800.00,2026-07-04,Oeste
+5,Tecnología,2300.00,2026-07-05,Norte
+6,Oficina,320.50,2026-07-06,Sur
+7,Logística,1500.00,2026-07-07,Este
+8,Servicios,650.25,2026-07-08,Oeste
+9,Tecnología,99.99,2026-07-09,Norte
+10,Oficina,410.00,2026-07-10,Sur
+11,Logística,1250.75,2026-07-11,Este
+12,Servicios,430.00,2026-07-12,Oeste
