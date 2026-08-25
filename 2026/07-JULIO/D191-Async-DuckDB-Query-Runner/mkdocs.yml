@@ -1,0 +1,7 @@
+site_name: "D191 - Async DuckDB Query Runner"
+theme:
+  name: material
+  palette:
+    scheme: slate
+nav:
+  - Inicio: index.md
