@@ -1,0 +1,41 @@
+site_name: D200 - Mid-Year Architecture Milestone
+site_description: Consolidación y etiquetado del hito de mitad de año en la arquitectura del portafolio.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
