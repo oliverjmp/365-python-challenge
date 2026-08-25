@@ -1,0 +1,6 @@
+id,departamento,gasto,fecha,aprobado
+1,Ingeniería,4500.00,2026-07-01,True
+2,Marketing,1200.50,2026-07-02,True
+3,Ventas,3100.00,2026-07-03,False
+4,Ingeniería,850.25,2026-07-04,True
+5,Marketing,400.00,2026-07-05,False

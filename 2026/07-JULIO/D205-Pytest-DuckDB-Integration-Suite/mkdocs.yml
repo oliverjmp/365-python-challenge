@@ -1,0 +1,21 @@
+site_name: D205 - Pytest DuckDB Integration Suite
+site_description: Suite avanzada de pruebas unitarias con Pytest Fixtures y DuckDB.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences

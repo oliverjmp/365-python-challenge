@@ -1,0 +1,7 @@
+duckdb>=0.10.0
+pandas>=2.0.0
+pytest>=8.0.0
+pytest-cov>=4.1.0
+coverage>=7.4.0
+streamlit>=1.30.0
+mkdocs-material>=9.0.0
