@@ -1,0 +1,21 @@
+site_name: D214 - Parquet Metadata Inspector
+site_description: Inspector programático de metadatos, esquemas y estadísticas internas de ficheros Parquet.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: amber
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences

@@ -1,0 +1,21 @@
+site_name: D213 - Advanced Aggregation Pipelines
+site_description: Ejecución de agregaciones multidimensionales complejas (CUBE, ROLLUP) en una sola pasada.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
