@@ -1,0 +1,21 @@
+site_name: D211 - Arrow Flight Data Transfer
+site_description: Transferencia ultrarrápida de datasets distribuidos mediante Apache Flight.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences

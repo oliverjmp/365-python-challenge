@@ -1,0 +1,21 @@
+site_name: D210 - Monthly July Consolidation Hub
+site_description: Consolidación estructural, limpieza de deuda técnica y empaquetado del bloque de julio.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences

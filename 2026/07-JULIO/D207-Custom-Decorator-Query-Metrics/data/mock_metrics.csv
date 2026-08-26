@@ -1,0 +1,5 @@
+id,operacion,tabla,filas_afectadas,estado
+1,SELECT,transacciones,150,Exitoso
+2,INSERT,transacciones,45,Exitoso
+3,UPDATE,logs,12,Exitoso
+4,SELECT,logs,500,Exitoso
