@@ -1,0 +1,21 @@
+site_name: D217 - Automated Data Quality DuckDB
+site_description: Validación estricta de restricciones de calidad de datos mediante aserciones SQL nativas.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: teal
+      accent: deep-orange
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences

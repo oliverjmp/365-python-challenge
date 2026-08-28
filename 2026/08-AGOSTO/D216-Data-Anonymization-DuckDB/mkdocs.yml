@@ -1,0 +1,21 @@
+site_name: D216 - Data Anonymization DuckDB
+site_description: Pipeline de enmascaramiento y anonimización de PII directamente en el motor SQL.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: deep-purple
+      accent: amber
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences

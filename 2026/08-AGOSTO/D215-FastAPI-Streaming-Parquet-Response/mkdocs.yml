@@ -1,0 +1,21 @@
+site_name: D215 - FastAPI Streaming Parquet Response
+site_description: Servicio web optimizado para la descarga directa y fluida de grandes ficheros Parquet.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences

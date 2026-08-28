@@ -1,0 +1,21 @@
+site_name: D218 - PyArrow Memory Footprint Optimizer
+site_description: Configuración avanzada de piscinas de memoria para evitar fragmentación en RAM.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: deep-orange
+      accent: indigo
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
