@@ -1,0 +1,20 @@
+site_name: D230 - Monthly August Architecture Audit | Enterprise Technical Specification
+site_description: Auditoría integral de rendimiento y validación de componentes de concurrencia del mes.
+site_author: Engineering Core Team
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+
+nav:
+  - Visión General y Resumen Ejecutivo: index.md
+  - Arquitectura de Auditoría y Concurrencia: architecture.md

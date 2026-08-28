@@ -1,0 +1,20 @@
+site_name: D229 - Redis Pub/Sub Event Broker | Enterprise Technical Specification
+site_description: Sistema de mensajería desacoplado basado en eventos mediante Redis Pub/Sub para arquitecturas orientadas a servicios.
+site_author: Engineering Core Team
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep-orange
+      accent: amber
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep-orange
+      accent: deep-orange
+
+nav:
+  - Visión General y Resumen Ejecutivo: index.md
+  - Arquitectura de Eventos Pub/Sub: architecture.md
