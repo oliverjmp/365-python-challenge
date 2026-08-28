@@ -1,0 +1,61 @@
+site_name: D225 - Shared Memory Manager | Enterprise Technical Specification
+site_description: Intercambio de matrices de datos de alta velocidad entre procesos hijos sin overhead de serialización.
+site_author: Engineering Core Team
+site_url: https://oliver-prep-professional.github.io/365-python-challenge/2026/08-AGOSTO/D225-Shared-Memory-Manager/
+
+repo_name: 365-python-challenge/D225-Shared-Memory-Manager
+repo_url: https://github.com/olive/365-python-challenge/tree/main/2026/08-AGOSTO/D225-Shared-Memory-Manager
+edit_uri: blob/main/docs/
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+
+nav:
+  - Visión General y Resumen Ejecutivo: index.md
+  - Arquitectura y Diseño de Sistemas: architecture.md

@@ -1,40 +1,26 @@
-# 🐍 365 Python Challenge — Portfolio Profesional
-
-Bienvenido a mi **365 Python Challenge**, un proyecto personal donde desarrollo, documento y despliego un ejercicio, módulo o mini‑proyecto de Python cada día durante un año completo. 
+🐍 365 Python Challenge — Portfolio Profesional
+Bienvenido a mi 365 Python Challenge, un proyecto personal donde desarrollo, documento y despliego un ejercicio, módulo o mini‑proyecto de Python cada día durante un año completo.
 
 El objetivo es construir un portafolio sólido, progresivo y de nivel enterprise que combina automatización, análisis de datos, ingeniería de software y buenas prácticas de desarrollo.
 
----
+📊 Estado Actual del Reto
+Progreso Global: Desarrollo diario activo en curso
+Stack Principal: Python 3.13+, Automatización, Arquitectura de Datos y Entornos Interactivos.
+📑 Índice
+Descripción General
+Estructura de Navegación Diaria
+Tabla de Progreso por Meses
+Tecnologías Utilizadas
+Sobre Mí
+🧠 Descripción General
+Cada carpeta diaria de este repositorio funciona como un módulo independiente. Sigo un estándar estricto de ingeniería que incluye:
 
-## 📊 Estado Actual del Reto
-* **Progreso Global:** Desarrollo diario activo en curso
-* **Stack Principal:** Python 3.13+, Automatización, Arquitectura de Datos y Entornos Interactivos.
-
----
-
-## 📑 Índice
-* [Descripción General](#-descripción-general)
-* [Estructura de Navegación Diaria](#-estructura-de-navegación-diaria)
-* [Tabla de Progreso por Meses](#-tabla-de-progreso-por-meses)
-* [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-* [Sobre Mí](#-sobre-mí)
-
----
-
-## 🧠 Descripción General
-
-Cada carpeta diaria de este repositorio funciona como un **módulo independiente**. Sigo un estándar estricto de ingeniería que incluye:
-* **Código Fuente:** Scripts limpios, tipados y documentados.
-* **README Diario:** Explicación técnica y de negocio específica del proyecto de ese día.
-* **Recursos / Salidas:** Datasets de prueba, logs o capturas de resultados si aplica.
-
----
-
-## 📂 Estructura de Navegación Diaria
-
+Código Fuente: Scripts limpios, tipados y documentados.
+README Diario: Explicación técnica y de negocio específica del proyecto de ese día.
+Recursos / Salidas: Datasets de prueba, logs o capturas de resultados si aplica.
+📂 Estructura de Navegación Diaria
 Para consultar un proyecto específico, puedes navegar por la jerarquía de carpetas del año en curso:
 
-```text
 365-python-challenge/
 │── 2026/
 │   ├── 01-ENERO/
