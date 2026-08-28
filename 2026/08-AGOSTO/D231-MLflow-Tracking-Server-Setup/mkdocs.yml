@@ -1,0 +1,20 @@
+site_name: D231 - MLflow Tracking Server Setup | Enterprise Technical Specification
+site_description: Inicialización de servidor de trazabilidad para registro de hiperparámetros y métricas de ML.
+site_author: Engineering Core Team
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+
+nav:
+  - Visión General y Resumen Ejecutivo: index.md
+  - Arquitectura de Trazabilidad MLOps: architecture.md
