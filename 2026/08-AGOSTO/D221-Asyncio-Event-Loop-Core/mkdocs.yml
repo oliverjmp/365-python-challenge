@@ -1,0 +1,65 @@
+site_name: D221 - Asyncio Event Loop Core | Enterprise Technical Specification
+site_description: Arquitectura de bucle de eventos asíncrono para gestión de tareas concurrentes de alta densidad.
+site_author: Engineering Core Team
+site_url: https://oliver-prep-professional.github.io/365-python-challenge/D221-Asyncio-Event-Loop-Core/
+
+repo_name: 365-python-challenge/D221-Asyncio-Event-Loop-Core
+repo_url: https://github.com/olive/365-python-challenge/tree/main/2026/08-AGOSTO/D221-Asyncio-Event-Loop-Core
+edit_uri: blob/main/docs/
+
+# Configuración de diseño y tema corporativo (Material for MkDocs)
+theme:
+  name: material
+  language: es
+  palette:
+    # Modo dual automático (Oscuro para ingeniería / Claro para presentaciones ejecutivas)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+# Extensiones Markdown para soporte avanzado (Diagramas Mermaid, Bloques de notas, Ecuaciones LaTeX)
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+
+# Estructura de navegación jerárquica orientada a negocio y arquitectura
+nav:
+  - Visión General y Resumen Ejecutivo: index.md
+  - Arquitectura y Diseño de Sistemas: architecture.md

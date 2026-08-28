@@ -1,0 +1,7 @@
+site_name: D220 - Milestone Consolidation CI/CD
+theme:
+  name: material
+  language: es
+nav:
+  - Inicio: index.md
+  - Arquitectura CI/CD: architecture.md

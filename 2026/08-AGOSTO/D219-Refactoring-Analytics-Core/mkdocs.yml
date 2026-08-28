@@ -1,0 +1,7 @@
+site_name: D219 - Refactoring Analytics Core Facade
+theme:
+  name: material
+  language: es
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
