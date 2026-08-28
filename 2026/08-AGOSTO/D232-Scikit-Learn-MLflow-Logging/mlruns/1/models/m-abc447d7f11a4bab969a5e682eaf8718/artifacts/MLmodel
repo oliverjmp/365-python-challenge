@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/olive/OneDrive/Escritorio/Oliver Preparacion Profesional/365-python-challenge/2026/08-AGOSTO/D232-Scikit-Learn-MLflow-Logging/mlruns/1/models/m-abc447d7f11a4bab969a5e682eaf8718/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.1
+    skops_trusted_types: null
+mlflow_version: 3.15.2
+model_id: m-abc447d7f11a4bab969a5e682eaf8718
+model_size_bytes: 2019798
+model_uuid: m-abc447d7f11a4bab969a5e682eaf8718
+prompts: null
+run_id: 55a3a50f17444409a7c1ceff9032d818
+utc_time_created: '2026-08-28 23:06:40.797186'

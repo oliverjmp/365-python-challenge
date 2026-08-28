@@ -1,0 +1,20 @@
+site_name: D232 - Scikit-Learn MLflow Logging | Enterprise Technical Specification
+site_description: Pipeline automatizado de entrenamiento con registro programático de artefactos y modelos.
+site_author: Engineering Core Team
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep-purple
+      accent: amber
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep-purple
+      accent: deep-purple
+
+nav:
+  - Visión General y Resumen Ejecutivo: index.md
+  - Arquitectura del Pipeline MLOps: architecture.md

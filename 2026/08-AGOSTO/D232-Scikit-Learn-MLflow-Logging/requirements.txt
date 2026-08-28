@@ -1,0 +1,6 @@
+pytest>=8.0.0
+pytest-cov>=4.1.0
+scikit-learn>=1.4.0
+mlflow>=2.10.0
+streamlit>=1.30.0
+mkdocs-material>=9.0.0
