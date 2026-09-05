@@ -1,0 +1,17 @@
+site_name: D237 - Data Quality & Contracts
+site_description: Implementación de contratos de datos con Great Expectations.
+site_author: Oliver
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+
+plugins:
+  - search

@@ -1,0 +1,6 @@
+great-expectations==0.18.12
+pandas>=2.2.1
+streamlit==1.32.0
+pytest==8.1.1
+pytest-cov==4.1.0
+mkdocs-material>=9.0.0
